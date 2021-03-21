@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
+		ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B125F29D7C0086E8DA /* AppDelegate.swift */; };
+		ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */; };
+		ABA471B625F29D7C0086E8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B525F29D7C0086E8DA /* ViewController.swift */; };
+		ABA471B925F29D7C0086E8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA471B725F29D7C0086E8DA /* Main.storyboard */; };
+		ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */; };
+		ABA471BE25F29D7F0086E8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA471BD25F29D7F0086E8DA /* Assets.xcassets */; };
+		ABA471C125F29D7F0086E8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */; };
+		ABB580E02601275D0075E9F7 /* SuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */; };
+		ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C02603CD0B007DEF0D /* QuestionsController.swift */; };
+		ABF282C42603CD88007DEF0D /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C32603CD88007DEF0D /* GameController.swift */; };
+		ABF282C72603D465007DEF0D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C62603D465007DEF0D /* MenuViewController.swift */; };
+		ABF282CA2603D8D9007DEF0D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C92603D8D9007DEF0D /* LoginController.swift */; };
+		ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282CC2603E080007DEF0D /* RegistrationController.swift */; };
+		D6C9BC0919579AA6FF30481F /* Pods_mind_manager_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6615581FCA70DB2078130EB2 /* Pods-mind-manager-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mind-manager-ios.release.xcconfig"; path = "Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios.release.xcconfig"; sourceTree = "<group>"; };
+		7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mind_manager_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB463C022601428500860BA2 /* SuggestionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionProtocol.swift; sourceTree = "<group>"; };
+		ABA471AE25F29D7C0086E8DA /* mind-manager-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mind-manager-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA471B125F29D7C0086E8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABA471B525F29D7C0086E8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABA471B825F29D7C0086E8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA471BB25F29D7C0086E8DA /* mind_manager_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mind_manager_ios.xcdatamodel; sourceTree = "<group>"; };
+		ABA471BD25F29D7F0086E8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA471C025F29D7F0086E8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA471C225F29D7F0086E8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsController.swift; sourceTree = "<group>"; };
+		ABF282C02603CD0B007DEF0D /* QuestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsController.swift; sourceTree = "<group>"; };
+		ABF282C32603CD88007DEF0D /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		ABF282C62603D465007DEF0D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		ABF282C92603D8D9007DEF0D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		ABF282CC2603E080007DEF0D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		D1E8ACBCDEA6B4AD011B38D4 /* Pods-mind-manager-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mind-manager-ios.debug.xcconfig"; path = "Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA471AB25F29D7C0086E8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C9BC0919579AA6FF30481F /* Pods_mind_manager_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D79BFB6DA9C757B213ECFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1E8ACBCDEA6B4AD011B38D4 /* Pods-mind-manager-ios.debug.xcconfig */,
+				6615581FCA70DB2078130EB2 /* Pods-mind-manager-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABA471A525F29D7C0086E8DA = {
+			isa = PBXGroup;
+			children = (
+				ABA471B025F29D7C0086E8DA /* mind-manager-ios */,
+				ABA471AF25F29D7C0086E8DA /* Products */,
+				10D79BFB6DA9C757B213ECFF /* Pods */,
+				C0927FB2514AB9896778D8D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA471AF25F29D7C0086E8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA471AE25F29D7C0086E8DA /* mind-manager-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA471B025F29D7C0086E8DA /* mind-manager-ios */ = {
+			isa = PBXGroup;
+			children = (
+				ABA471B125F29D7C0086E8DA /* AppDelegate.swift */,
+				ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */,
+				ABA471B525F29D7C0086E8DA /* ViewController.swift */,
+				ABF282C62603D465007DEF0D /* MenuViewController.swift */,
+				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
+				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
+				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
+				ABF282C92603D8D9007DEF0D /* LoginController.swift */,
+				ABF282C32603CD88007DEF0D /* GameController.swift */,
+				ABF282C02603CD0B007DEF0D /* QuestionsController.swift */,
+				ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */,
+				ABA471BD25F29D7F0086E8DA /* Assets.xcassets */,
+				ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */,
+				ABA471C225F29D7F0086E8DA /* Info.plist */,
+				ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */,
+			);
+			path = "mind-manager-ios";
+			sourceTree = "<group>";
+		};
+		C0927FB2514AB9896778D8D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA471AD25F29D7C0086E8DA /* mind-manager-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA471C525F29D7F0086E8DA /* Build configuration list for PBXNativeTarget "mind-manager-ios" */;
+			buildPhases = (
+				83D7439092675EAAADF5AF6B /* [CP] Check Pods Manifest.lock */,
+				ABA471AA25F29D7C0086E8DA /* Sources */,
+				ABA471AB25F29D7C0086E8DA /* Frameworks */,
+				ABA471AC25F29D7C0086E8DA /* Resources */,
+				68789F0A98B74BDF4FC0E32A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mind-manager-ios";
+			productName = "mind-manager-ios";
+			productReference = ABA471AE25F29D7C0086E8DA /* mind-manager-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA471A625F29D7C0086E8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					ABA471AD25F29D7C0086E8DA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = ABA471A925F29D7C0086E8DA /* Build configuration list for PBXProject "mind-manager-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA471A525F29D7C0086E8DA;
+			productRefGroup = ABA471AF25F29D7C0086E8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA471AD25F29D7C0086E8DA /* mind-manager-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA471AC25F29D7C0086E8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA471C125F29D7F0086E8DA /* LaunchScreen.storyboard in Resources */,
+				ABA471BE25F29D7F0086E8DA /* Assets.xcassets in Resources */,
+				ABA471B925F29D7C0086E8DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68789F0A98B74BDF4FC0E32A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D7439092675EAAADF5AF6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mind-manager-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA471AA25F29D7C0086E8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA471B625F29D7C0086E8DA /* ViewController.swift in Sources */,
+				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
+				ABB580E02601275D0075E9F7 /* SuggestionsController.swift in Sources */,
+				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
+				ABF282C72603D465007DEF0D /* MenuViewController.swift in Sources */,
+				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,
+				ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */,
+				ABF282C42603CD88007DEF0D /* GameController.swift in Sources */,
+				ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */,
+				ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */,
+				ABF282CA2603D8D9007DEF0D /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABA471B725F29D7C0086E8DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA471B825F29D7C0086E8DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA471C025F29D7F0086E8DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA471C325F29D7F0086E8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA471C425F29D7F0086E8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA471C625F29D7F0086E8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E8ACBCDEA6B4AD011B38D4 /* Pods-mind-manager-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mind-manager-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantasticfive.mind-manager-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA471C725F29D7F0086E8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6615581FCA70DB2078130EB2 /* Pods-mind-manager-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mind-manager-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantasticfive.mind-manager-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA471A925F29D7C0086E8DA /* Build configuration list for PBXProject "mind-manager-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA471C325F29D7F0086E8DA /* Debug */,
+				ABA471C425F29D7F0086E8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA471C525F29D7F0086E8DA /* Build configuration list for PBXNativeTarget "mind-manager-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA471C625F29D7F0086E8DA /* Debug */,
+				ABA471C725F29D7F0086E8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABA471BB25F29D7C0086E8DA /* mind_manager_ios.xcdatamodel */,
+			);
+			currentVersion = ABA471BB25F29D7C0086E8DA /* mind_manager_ios.xcdatamodel */;
+			path = mind_manager_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABA471A625F29D7C0086E8DA /* Project object */;
+}
