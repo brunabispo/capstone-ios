@@ -464,6 +464,10 @@
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="lblReading" destination="h7f-zZ-6Pd" id="YIp-9T-vDW"/>
+                        <outlet property="lblSport" destination="8DH-ac-bne" id="ecs-VB-XVa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FsN-DX-fUn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1133,9 +1137,9 @@ Analyst</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="76K-3C-fW6"/>
+        <segue reference="ZQU-DZ-QCM"/>
         <segue reference="4rY-Gn-P0P"/>
-        <segue reference="X64-lz-HaG"/>
+        <segue reference="skz-Sa-qkA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="720" height="1280"/>

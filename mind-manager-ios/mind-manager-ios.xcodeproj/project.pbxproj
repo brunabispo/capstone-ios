@@ -16,7 +16,7 @@
 		ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */; };
 		ABA471BE25F29D7F0086E8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA471BD25F29D7F0086E8DA /* Assets.xcassets */; };
 		ABA471C125F29D7F0086E8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */; };
-		ABB580E02601275D0075E9F7 /* SuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */; };
+		ABDD00B9260C03D7006C18C0 /* SuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD00B8260C03D7006C18C0 /* SuggestionsController.swift */; };
 		ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C02603CD0B007DEF0D /* QuestionsController.swift */; };
 		ABF282C42603CD88007DEF0D /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C32603CD88007DEF0D /* GameController.swift */; };
 		ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282CC2603E080007DEF0D /* RegistrationController.swift */; };
@@ -37,7 +37,7 @@
 		ABA471BD25F29D7F0086E8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA471C025F29D7F0086E8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABA471C225F29D7F0086E8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		ABDD00B8260C03D7006C18C0 /* SuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsController.swift; sourceTree = "<group>"; };
 		ABF282C02603CD0B007DEF0D /* QuestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsController.swift; sourceTree = "<group>"; };
 		ABF282C32603CD88007DEF0D /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		ABF282CC2603E080007DEF0D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
@@ -92,10 +92,10 @@
 				AB1A057B260BEA7100BB7300 /* LoginController.swift */,
 				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
 				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
+				ABDD00B8260C03D7006C18C0 /* SuggestionsController.swift */,
 				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
 				ABF282C32603CD88007DEF0D /* GameController.swift */,
 				ABF282C02603CD0B007DEF0D /* QuestionsController.swift */,
-				ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */,
 				ABA471BD25F29D7F0086E8DA /* Assets.xcassets */,
 				ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */,
 				ABA471C225F29D7F0086E8DA /* Info.plist */,
@@ -227,9 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */,
+				ABDD00B9260C03D7006C18C0 /* SuggestionsController.swift in Sources */,
 				ABA471B625F29D7C0086E8DA /* ViewController.swift in Sources */,
 				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
-				ABB580E02601275D0075E9F7 /* SuggestionsController.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
 				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,
 				ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */,

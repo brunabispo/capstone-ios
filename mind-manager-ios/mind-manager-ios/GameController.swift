@@ -73,6 +73,7 @@ class GameController: UIViewController {
         // HAVE TO CHECK WHICH BUTTON WAS CLICKED
         // Get a random element (image) from the array
         wordSearchImage.image = instanceSuggestion.happierArray.randomElement()
+        lblResult.text = ""
         
     }
 }
