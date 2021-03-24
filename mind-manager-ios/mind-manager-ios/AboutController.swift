@@ -1,5 +1,5 @@
 //
-//  LoginController.swift
+//  AboutController.swift
 //  mind-manager-ios
 //
 //  Created by Bruna Bispo on 24/03/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginController: UIViewController {
+class AboutController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -15,7 +15,9 @@ class QuestionsController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Creating the side menu
-        menu = SideMenuNavigationController(rootViewController: MenuListController())
+        menu = SideMenuNavigationController(rootViewController: MenuListController(with:
+            ["Login", "About"]
+        ))
         
         // Slide to open the menu
         SideMenuManager.default.rightMenuNavigationController = menu

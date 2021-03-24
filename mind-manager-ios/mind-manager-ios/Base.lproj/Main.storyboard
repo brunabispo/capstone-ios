@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ywy-A6-Oox">
@@ -44,7 +44,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnMoody:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OLw-Ye-g2x"/>
-                                    <segue destination="9hU-w7-GYF" kind="show" identifier="moreMoody" id="UHP-8c-nBA"/>
+                                    <segue destination="9hU-w7-GYF" kind="show" identifier="moreMoody" id="bXY-YX-TnO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I want to feel..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TED-BG-f7f">
@@ -64,7 +64,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnHappier:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BVx-XN-1NF"/>
-                                    <segue destination="9hU-w7-GYF" kind="show" identifier="happier" id="MSe-99-9sN"/>
+                                    <segue destination="9hU-w7-GYF" kind="show" identifier="happier" id="ZCn-qX-Gcl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5p3-sY-doR">
@@ -77,7 +77,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnEnergetic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ic-U4-g2V"/>
-                                    <segue destination="9hU-w7-GYF" kind="show" identifier="moreEnergetic" id="WgE-Jr-Rwe"/>
+                                    <segue destination="9hU-w7-GYF" kind="show" identifier="moreEnergetic" id="ohh-IJ-KMw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYd-rQ-RVx">
@@ -90,7 +90,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnCalmer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tUS-Gr-amN"/>
-                                    <segue destination="9hU-w7-GYF" kind="show" identifier="calmer" id="nFD-8R-tfK"/>
+                                    <segue destination="9hU-w7-GYF" kind="show" identifier="calmer" id="qUi-m6-4Iz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTF-gY-FVP">
@@ -103,7 +103,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bBQ-rQ-KaH"/>
-                                    <segue destination="9hU-w7-GYF" kind="show" identifier="moreRelaxed" id="cPt-1S-AwY"/>
+                                    <segue destination="9hU-w7-GYF" kind="show" identifier="moreRelaxed" id="axw-d2-Lkx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOx-WM-1CP">
@@ -116,7 +116,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnIDontKnow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZF-lc-v6P"/>
-                                    <segue destination="QU1-gA-xXQ" kind="show" identifier="iDontKnow" id="KBZ-A6-8aw"/>
+                                    <segue destination="QU1-gA-xXQ" kind="show" identifier="iDontKnow" id="YnY-x7-XkU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxV-Ng-dCC">
@@ -126,42 +126,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysR-It-7OA">
-                                <rect key="frame" x="60" y="780" width="130" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Login">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eWl-bX-2ju"/>
-                                    <segue destination="qbt-ci-kAI" kind="show" identifier="goToLogin" id="gQO-00-sp4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXm-sR-4BR">
-                                <rect key="frame" x="225" y="780" width="130" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="About">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ojC-Oz-7qu"/>
-                                    <segue destination="X2y-Ha-m0U" kind="show" id="uqx-p1-eOU"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="DXR-0Z-cJN">
-                        <barButtonItem key="rightBarButtonItem" title="Menu" id="joM-Ht-Tzp">
-                            <connections>
-                                <action selector="didTapMenu" destination="BYZ-38-t0r" id="fWl-7Y-myW"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Login" id="joM-Ht-Tzp">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <action selector="didTapMenu" destination="BYZ-38-t0r" id="fWl-7Y-myW"/>
+                                    <segue destination="qbt-ci-kAI" kind="show" identifier="menuLogin" id="fPW-0P-TUj"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="About" id="eKU-6g-lJd">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <segue destination="X2y-Ha-m0U" kind="show" identifier="menuAbout" id="hME-Nf-KWM"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -171,9 +155,9 @@
         <!--Login Controller-->
         <scene sceneID="gTX-sJ-Lgg">
             <objects>
-                <viewController id="qbt-ci-kAI" customClass="LoginController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" id="qbt-ci-kAI" customClass="LoginController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qU4-et-PkH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="HDK-c7-EJ9">
@@ -230,7 +214,6 @@
                                 </state>
                                 <connections>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ye7-aj-Mcg"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="submitLogin" id="73B-Gw-Myo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you do not have an account yet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSn-bG-Nsp">
@@ -250,7 +233,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5H-NN-4Z3"/>
-                                    <segue destination="n5g-vA-oCY" kind="show" identifier="goToCreateAccount" id="2cn-OB-lZm"/>
+                                    <segue destination="n5g-vA-oCY" kind="show" identifier="register" id="UZI-ty-83p"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -268,7 +251,7 @@
             <objects>
                 <viewController id="n5g-vA-oCY" customClass="RegistrationController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oqm-Pf-Mgs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="lyX-Fy-40M">
@@ -351,7 +334,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zue-rG-rLc"/>
-                                    <segue destination="qbt-ci-kAI" kind="show" identifier="submitRegistration" id="TQo-d8-sz6"/>
+                                    <segue destination="qbt-ci-kAI" kind="show" identifier="submitRegister" id="o6k-Yr-YEd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -362,14 +345,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hPF-fU-CnF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2178.2608695652175" y="1385.4910714285713"/>
+            <point key="canvasLocation" x="-2074" y="1521"/>
         </scene>
         <!--Suggestions Controller-->
         <scene sceneID="YK0-3a-vB3">
             <objects>
                 <viewController id="9hU-w7-GYF" customClass="SuggestionsController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SEu-yb-F4c">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4t3-Uu-h4P">
@@ -450,7 +433,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnPlay:" destination="9hU-w7-GYF" eventType="touchUpInside" id="FZg-xf-x3p"/>
-                                    <segue destination="RlG-Al-TbQ" kind="show" identifier="playGame" id="p7h-LZ-EfS"/>
+                                    <segue destination="RlG-Al-TbQ" kind="show" identifier="playGame" id="mdt-JG-M0s"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mind Manager App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gr-g9-ye5">
@@ -465,11 +448,21 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="o4O-DX-oST">
-                        <barButtonItem key="rightBarButtonItem" title="Menu" id="mDZ-tb-W4l">
-                            <connections>
-                                <action selector="didTapMenu" destination="9hU-w7-GYF" id="fcM-Ow-KOq"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Login" id="T9h-hL-0lz">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <action selector="didTapMenu" destination="BYZ-38-t0r" id="WtN-mZ-oYi"/>
+                                    <segue destination="qbt-ci-kAI" kind="show" id="skz-Sa-qkA"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="About" id="rrU-aY-XM6">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <segue destination="X2y-Ha-m0U" kind="show" id="ZQU-DZ-QCM"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FsN-DX-fUn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -481,7 +474,7 @@
             <objects>
                 <viewController id="RlG-Al-TbQ" customClass="GameController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rcj-cs-sOh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="SIe-Uw-eT7">
@@ -550,11 +543,21 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="OB1-e6-0Wo">
-                        <barButtonItem key="rightBarButtonItem" title="Menu" id="2ld-dZ-TmW">
-                            <connections>
-                                <action selector="didTapMenu" destination="RlG-Al-TbQ" id="aMz-Wv-m5R"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Login" id="t0M-Mn-XBk">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <action selector="didTapMenu" destination="BYZ-38-t0r" id="XG2-Vi-DAz"/>
+                                    <segue destination="qbt-ci-kAI" kind="show" id="X64-lz-HaG"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="About" id="v9j-6N-81t">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <segue destination="X2y-Ha-m0U" kind="show" id="76K-3C-fW6"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="inputResult" destination="x0u-ae-b6O" id="chg-Q5-sZE"/>
@@ -567,12 +570,12 @@
             </objects>
             <point key="canvasLocation" x="2757.971014492754" y="87.723214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--About Controller-->
         <scene sceneID="gmo-Vu-Txw">
             <objects>
-                <viewController id="X2y-Ha-m0U" sceneMemberID="viewController">
+                <viewController id="X2y-Ha-m0U" customClass="AboutController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hJs-9s-eXE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="2kE-UD-caT">
@@ -663,14 +666,14 @@ Analyst</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dG3-lr-bmk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="69.565217391304358" y="949.55357142857133"/>
+            <point key="canvasLocation" x="174" y="1567"/>
         </scene>
         <!--Questions Controller-->
         <scene sceneID="TLD-gp-L3p">
             <objects>
                 <viewController id="QU1-gA-xXQ" customClass="QuestionsController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xdd-qq-Ub9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="9Lc-kE-taw">
@@ -809,7 +812,7 @@ Analyst</string>
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9hU-w7-GYF" kind="show" identifier="submitQuestions" id="GkB-sh-csS"/>
+                                    <segue destination="9hU-w7-GYF" kind="show" identifier="submitQuestions" id="4rY-Gn-P0P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZxK-Dn-Ef8">
@@ -832,11 +835,21 @@ Analyst</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="VnY-VH-Fjx">
-                        <barButtonItem key="rightBarButtonItem" title="Menu" id="qXY-HP-QTj">
-                            <connections>
-                                <action selector="didTapMenu" destination="QU1-gA-xXQ" id="K03-i4-j8D"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Login" id="RCi-y3-C66">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <action selector="didTapMenu" destination="BYZ-38-t0r" id="9jj-zx-pfH"/>
+                                    <segue destination="qbt-ci-kAI" kind="show" id="BQ9-xd-B8o"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="About" id="AkM-9k-rjh">
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <connections>
+                                    <segue destination="X2y-Ha-m0U" kind="show" id="B5o-58-vvw"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BgZ-FF-vga" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -872,7 +885,6 @@ Analyst</string>
                                 </state>
                                 <connections>
                                     <action selector="btnMoody:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6QB-L3-iWr"/>
-                                    <segue destination="Kff-DG-UWw" kind="show" id="BMQ-IE-yAY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nst-ZT-feI">
@@ -885,7 +897,6 @@ Analyst</string>
                                 </state>
                                 <connections>
                                     <action selector="btnHappier:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXv-jA-PGp"/>
-                                    <segue destination="San-MK-Bii" kind="show" id="OSX-JW-8cB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4k2-GT-Ctc">
@@ -898,7 +909,6 @@ Analyst</string>
                                 </state>
                                 <connections>
                                     <action selector="btnEnergetic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o1I-ch-Adq"/>
-                                    <segue destination="6rE-41-WaO" kind="show" id="AGn-W2-xNq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqU-Qv-HMh">
@@ -927,7 +937,7 @@ Analyst</string>
             <objects>
                 <viewController id="San-MK-Bii" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jkG-e7-G3b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Fl0-iO-Ryy">
@@ -975,7 +985,7 @@ Analyst</string>
             <objects>
                 <viewController id="6rE-41-WaO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fpm-TW-lt2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="7CO-0U-7cB">
@@ -1023,7 +1033,7 @@ Analyst</string>
             <objects>
                 <viewController id="Kff-DG-UWw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xSs-eV-TX5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="RU3-oo-9AF">
@@ -1123,9 +1133,9 @@ Analyst</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UHP-8c-nBA"/>
-        <segue reference="TQo-d8-sz6"/>
-        <segue reference="73B-Gw-Myo"/>
+        <segue reference="76K-3C-fW6"/>
+        <segue reference="4rY-Gn-P0P"/>
+        <segue reference="X64-lz-HaG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="720" height="1280"/>

@@ -38,26 +38,33 @@ class GameController: UIViewController {
         let userInput =  inputResult.text ?? ""
         
         if inputResult.text == nil || inputResult.text == "" {
+            lblResult.textColor = UIColor.red
             lblResult.text = "Please enter a word!"
+            inputResult.text = ""
         }
         
         else if !happierWords.contains(userInput.lowercased()) {
+            lblResult.textColor = UIColor.red
             lblResult.text = "The word '\(userInput.lowercased())' is wrong!\n Try again!"
         }
         
         else if happierWords.contains(userInput.lowercased()) && (counter > 1) {
+            lblResult.textColor = UIColor.black
             counter -= 1
             lblResult.text = "You found '\(userInput.lowercased())'!\nThere is \(counter) to go"
+            inputResult.text = ""
         }
         
         else if happierWords.contains(userInput.lowercased()) && (counter == 1) {
+            lblResult.textColor = UIColor.blue
             lblResult.text = "You found '\(userInput.lowercased())'!\nYou found them all!"
-        }
-        
-        // does not work
-        else if counter == 1 {
+            inputResult.text = ""
+            
+            // user is not able to click or type anymore
+            inputResult.isEnabled = false
             tapCheck.isEnabled = false
         }
+        
     }
     
     
@@ -66,7 +73,9 @@ class GameController: UIViewController {
         // Do any additional setup after loading the view.
         
         // Creating the side menu
-        menu = SideMenuNavigationController(rootViewController: MenuListController())
+        menu = SideMenuNavigationController(rootViewController: MenuListController(with:
+            ["Login", "About"]
+        ))
         
         // Slide to open the menu
         SideMenuManager.default.rightMenuNavigationController = menu
