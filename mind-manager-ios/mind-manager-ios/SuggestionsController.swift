@@ -9,6 +9,16 @@ import SideMenu
 import UIKit
 
 class SuggestionsController: UIViewController, SuggestionProtocol {
+    
+    let happierArray = [#imageLiteral(resourceName: "crossword_happier"), #imageLiteral(resourceName: "crossword_happier2"), #imageLiteral(resourceName: "crossword_happier3")]
+    
+    
+    
+    @IBAction func btnPlay(_ sender: Any) {
+
+    }
+    
+    
     var musicSuggestion: String = ""
     
     var gameSuggestion: String = ""
