@@ -570,10 +570,10 @@
             </objects>
             <point key="canvasLocation" x="2757.971014492754" y="87.723214285714278"/>
         </scene>
-        <!--About Controller-->
+        <!--View Controller-->
         <scene sceneID="gmo-Vu-Txw">
             <objects>
-                <viewController id="X2y-Ha-m0U" customClass="AboutController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="X2y-Ha-m0U" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hJs-9s-eXE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

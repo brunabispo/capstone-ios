@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A057B260BEA7100BB7300 /* LoginController.swift */; };
-		AB1A057F260BEA9A00BB7300 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A057E260BEA9A00BB7300 /* AboutController.swift */; };
 		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
 		ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B125F29D7C0086E8DA /* AppDelegate.swift */; };
 		ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */; };
@@ -20,7 +19,6 @@
 		ABB580E02601275D0075E9F7 /* SuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */; };
 		ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C02603CD0B007DEF0D /* QuestionsController.swift */; };
 		ABF282C42603CD88007DEF0D /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C32603CD88007DEF0D /* GameController.swift */; };
-		ABF282C72603D465007DEF0D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C62603D465007DEF0D /* MenuViewController.swift */; };
 		ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282CC2603E080007DEF0D /* RegistrationController.swift */; };
 		D6C9BC0919579AA6FF30481F /* Pods_mind_manager_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */; };
 /* End PBXBuildFile section */
@@ -29,7 +27,6 @@
 		6615581FCA70DB2078130EB2 /* Pods-mind-manager-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mind-manager-ios.release.xcconfig"; path = "Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios.release.xcconfig"; sourceTree = "<group>"; };
 		7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mind_manager_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1A057B260BEA7100BB7300 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		AB1A057E260BEA9A00BB7300 /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
 		AB463C022601428500860BA2 /* SuggestionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionProtocol.swift; sourceTree = "<group>"; };
 		ABA471AE25F29D7C0086E8DA /* mind-manager-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mind-manager-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA471B125F29D7C0086E8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +37,9 @@
 		ABA471BD25F29D7F0086E8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA471C025F29D7F0086E8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABA471C225F29D7F0086E8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsController.swift; sourceTree = "<group>"; };
+		ABB580DF2601275D0075E9F7 /* SuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		ABF282C02603CD0B007DEF0D /* QuestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsController.swift; sourceTree = "<group>"; };
 		ABF282C32603CD88007DEF0D /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
-		ABF282C62603D465007DEF0D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		ABF282CC2603E080007DEF0D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		D1E8ACBCDEA6B4AD011B38D4 /* Pods-mind-manager-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mind-manager-ios.debug.xcconfig"; path = "Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,9 +89,7 @@
 				ABA471B125F29D7C0086E8DA /* AppDelegate.swift */,
 				ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */,
 				ABA471B525F29D7C0086E8DA /* ViewController.swift */,
-				AB1A057E260BEA9A00BB7300 /* AboutController.swift */,
 				AB1A057B260BEA7100BB7300 /* LoginController.swift */,
-				ABF282C62603D465007DEF0D /* MenuViewController.swift */,
 				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
 				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
 				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
@@ -237,13 +231,11 @@
 				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
 				ABB580E02601275D0075E9F7 /* SuggestionsController.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
-				ABF282C72603D465007DEF0D /* MenuViewController.swift in Sources */,
 				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,
 				ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */,
 				ABF282C42603CD88007DEF0D /* GameController.swift in Sources */,
 				ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */,
 				ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */,
-				AB1A057F260BEA9A00BB7300 /* AboutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
