@@ -2,7 +2,7 @@
 //  LoginController.swift
 //  mind-manager-ios
 //
-//  Created by Bruna Bispo on 24/03/21.
+//  Created by Fantastic Five on 24/03/21.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  SuggestionsController.swift
 //  mind-manager-ios
 //
-//  Created by Bruna Bispo on 16/03/21.
+//  Created by Fantastic Five on 16/03/21.
 //
 
 import SideMenu
@@ -11,6 +11,7 @@ import UIKit
 class SuggestionsController: UIViewController{
     
     let happierArray = [#imageLiteral(resourceName: "crossword_happier"), #imageLiteral(resourceName: "crossword_happier2"), #imageLiteral(resourceName: "crossword_happier3")]
+    let moodyArray = [#imageLiteral(resourceName: "crossword_moody")]
     
     
     
@@ -23,6 +24,9 @@ class SuggestionsController: UIViewController{
     @IBOutlet weak var lblReading: UILabel!
     
     @IBOutlet weak var lblSport: UILabel!
+    
+    @IBOutlet weak var lblMovie: UILabel!
+    
     
     
     // Hard-coding suggestions
@@ -43,7 +47,7 @@ class SuggestionsController: UIViewController{
     var happierMusic = ["I Feel Good - James Brown", "Who's Laughing Now - Ava Max"]
     var happierSport = ["Paint-Ball", "Laser Tag"]
     var happierReading = ["Diary of a Wimpy Kid - Jeff Kinney",
-                         "Happiness is a direction,\nnot a place\nSydney J. Harris"]
+                         "Happiness is a direction, not a place - Sydney J. Harris"]
     
     // Moody
     var moodyMusic = ["Summertime Sadness - Lana Del Rey", "Exile - Taylor Swift"]

@@ -2,12 +2,12 @@
 //  ViewController.swift
 //  mind-manager-ios
 //
-//  Created by Bruna Bispo on 05/03/21.
+//  Created by Fantastic Five on 05/03/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController{
+class WelcomeController: UIViewController{
     
     // More Moody option
     @IBAction func btnMoody(_ sender: Any) {

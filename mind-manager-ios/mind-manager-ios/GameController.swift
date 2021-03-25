@@ -2,7 +2,7 @@
 //  GameController.swift
 //  mind-manager-ios
 //
-//  Created by Bruna Bispo on 18/03/21.
+//  Created by Fantastic Five on 18/03/21.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class GameController: UIViewController {
     var instanceSuggestion = SuggestionsController()
     
     // Instance of ViewController
-    var instanceMain = ViewController()
+    var instanceMain = WelcomeController()
     
     // Word Search Image View
     @IBOutlet weak var wordSearchImage: UIImageView!
@@ -24,10 +24,13 @@ class GameController: UIViewController {
     // Label where the result will be displayed after clicking btnCheck
     @IBOutlet weak var lblResult: UILabel!
     
+    @IBOutlet weak var lblWordsFound: UILabel!
+    
     @IBOutlet weak var tapCheck: UIButton!
     
     
     var counter = 4
+    var foundArray: [String] = []
     
     // Check Button - display result in the lblResult
     @IBAction func btnCheck(_ sender: Any) {
@@ -47,21 +50,36 @@ class GameController: UIViewController {
             lblResult.text = "The word '\(userInput.lowercased())' is wrong!\n Try again!"
         }
         
-        else if happierWords.contains(userInput.lowercased()) && (counter > 1) {
+        else if happierWords.contains(userInput.lowercased()) && (counter > 1) && foundArray.contains(userInput.lowercased()) == false {
+            lblWordsFound.text = ""
             lblResult.textColor = UIColor.black
             counter -= 1
             lblResult.text = "You found '\(userInput.lowercased())'!\nThere is \(counter) to go"
             inputResult.text = ""
+            foundArray.append(userInput.lowercased())
+            
+            // print the words that was already found
+            for word in foundArray {
+                lblWordsFound.text! += "\(word)\n"
+            }
+            
         }
         
-        else if happierWords.contains(userInput.lowercased()) && (counter == 1) {
+        else if happierWords.contains(userInput.lowercased()) && (counter == 1) && foundArray.contains(userInput.lowercased()) == false {
+            lblWordsFound.text = ""
             lblResult.textColor = UIColor.blue
             lblResult.text = "You found '\(userInput.lowercased())'!\nYou found them all!"
             inputResult.text = ""
+            foundArray.append(userInput.lowercased())
             
             // user is not able to click or type anymore
             inputResult.isEnabled = false
             tapCheck.isEnabled = false
+            
+            // print the words that was already found
+            for word in foundArray {
+                lblWordsFound.text! += "\(word)\n"
+            }
         }
         
     }
@@ -74,6 +92,6 @@ class GameController: UIViewController {
         // Get a random element (image) from the array
         wordSearchImage.image = instanceSuggestion.happierArray.randomElement()
         lblResult.text = ""
-        
+        lblWordsFound.text = ""
     }
 }

@@ -2,7 +2,7 @@
 //  SuggestionProtocol.swift
 //  mind-manager-ios
 //
-//  Created by Bruna Bispo on 16/03/21.
+//  Created by Fantastic Five on 16/03/21.
 //
 
 import Foundation

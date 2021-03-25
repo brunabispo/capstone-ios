@@ -11,7 +11,7 @@
 		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
 		ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B125F29D7C0086E8DA /* AppDelegate.swift */; };
 		ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */; };
-		ABA471B625F29D7C0086E8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B525F29D7C0086E8DA /* ViewController.swift */; };
+		ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B525F29D7C0086E8DA /* WelcomeController.swift */; };
 		ABA471B925F29D7C0086E8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA471B725F29D7C0086E8DA /* Main.storyboard */; };
 		ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */; };
 		ABA471BE25F29D7F0086E8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA471BD25F29D7F0086E8DA /* Assets.xcassets */; };
@@ -31,7 +31,7 @@
 		ABA471AE25F29D7C0086E8DA /* mind-manager-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mind-manager-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA471B125F29D7C0086E8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABA471B525F29D7C0086E8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABA471B525F29D7C0086E8DA /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		ABA471B825F29D7C0086E8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABA471BB25F29D7C0086E8DA /* mind_manager_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mind_manager_ios.xcdatamodel; sourceTree = "<group>"; };
 		ABA471BD25F29D7F0086E8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 			children = (
 				ABA471B125F29D7C0086E8DA /* AppDelegate.swift */,
 				ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */,
-				ABA471B525F29D7C0086E8DA /* ViewController.swift */,
+				ABA471B525F29D7C0086E8DA /* WelcomeController.swift */,
 				AB1A057B260BEA7100BB7300 /* LoginController.swift */,
 				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
 				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
@@ -228,7 +228,7 @@
 			files = (
 				AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */,
 				ABDD00B9260C03D7006C18C0 /* SuggestionsController.swift in Sources */,
-				ABA471B625F29D7C0086E8DA /* ViewController.swift in Sources */,
+				ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */,
 				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
 				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,
