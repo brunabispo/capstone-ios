@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A057B260BEA7100BB7300 /* LoginController.swift */; };
 		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
+		ABA1DBA3260E375800A87CBD /* MoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1DBA2260E375800A87CBD /* MoviesPlayerController.swift */; };
 		ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B125F29D7C0086E8DA /* AppDelegate.swift */; };
 		ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */; };
 		ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B525F29D7C0086E8DA /* WelcomeController.swift */; };
@@ -29,6 +30,7 @@
 		7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mind_manager_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1A057B260BEA7100BB7300 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		AB463C022601428500860BA2 /* SuggestionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionProtocol.swift; sourceTree = "<group>"; };
+		ABA1DBA2260E375800A87CBD /* MoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPlayerController.swift; sourceTree = "<group>"; };
 		ABA471AE25F29D7C0086E8DA /* mind-manager-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mind-manager-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA471B125F29D7C0086E8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				ABA471C225F29D7F0086E8DA /* Info.plist */,
 				ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */,
 				ABF34532260D639100832962 /* MusicPlayerController.swift */,
+				ABA1DBA2260E375800A87CBD /* MoviesPlayerController.swift */,
 			);
 			path = "mind-manager-ios";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */,
 				ABDD00B9260C03D7006C18C0 /* SuggestionsController.swift in Sources */,
 				ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */,
+				ABA1DBA3260E375800A87CBD /* MoviesPlayerController.swift in Sources */,
 				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
 				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,

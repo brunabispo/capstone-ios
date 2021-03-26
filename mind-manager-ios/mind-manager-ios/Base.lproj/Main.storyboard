@@ -147,6 +147,9 @@
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="lblLogin" destination="joM-Ht-Tzp" id="nR5-UR-Dxn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -214,6 +217,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ye7-aj-Mcg"/>
+                                    <action selector="btnSubmitLogin:" destination="qbt-ci-kAI" eventType="touchUpInside" id="KwH-dR-07P"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you do not have an account yet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSn-bG-Nsp">
@@ -241,6 +245,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="QSc-wS-Ppn"/>
+                    <connections>
+                        <outlet property="inputPassword" destination="hCr-EX-GXB" id="cm3-ap-ELI"/>
+                        <outlet property="inputUsername" destination="ECb-04-5b7" id="UJ2-MC-XQS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Abl-Pv-A97" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -459,13 +467,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="something " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry0-k4-BCr">
-                                <rect key="frame" x="129" y="736" width="265" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="movie" translatesAutoresizingMaskIntoConstraints="NO" id="YIl-3C-h3h">
                                 <rect key="frame" x="20" y="696" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -481,6 +482,19 @@
                                 <connections>
                                     <action selector="btnPlay:" destination="9hU-w7-GYF" eventType="touchUpInside" id="0dw-0T-dqx"/>
                                     <segue destination="tNM-Cd-qfG" kind="show" id="jnP-be-NSi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMV-AH-E2z">
+                                <rect key="frame" x="129" y="744" width="265" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0110211717" green="0.38765639070000002" blue="0.9640446305" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Play Movie Trailer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnPlay:" destination="9hU-w7-GYF" eventType="touchUpInside" id="6t2-6y-rOP"/>
+                                    <segue destination="Dsn-zm-m3m" kind="show" id="HJe-NW-Qs1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -505,7 +519,6 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
-                        <outlet property="lblMovie" destination="ry0-k4-BCr" id="E4b-Ie-RAQ"/>
                         <outlet property="lblReading" destination="h7f-zZ-6Pd" id="YIp-9T-vDW"/>
                         <outlet property="lblSport" destination="8DH-ac-bne" id="ecs-VB-XVa"/>
                     </connections>
@@ -689,6 +702,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l2m-wi-d2J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2757.971014492754" y="87.723214285714278"/>
+        </scene>
+        <!--Movies Player Controller-->
+        <scene sceneID="NGO-iT-foh">
+            <objects>
+                <viewController id="Dsn-zm-m3m" customClass="MoviesPlayerController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zb9-7K-vlC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="PZ1-ff-zdH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Title:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjD-yO-eiL">
+                                <rect key="frame" x="20" y="409" width="374" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yw2-zk-SpZ">
+                                <rect key="frame" x="20" y="470" width="374" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WGr-md-nar">
+                                <rect key="frame" x="87" y="550" width="240" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Rx-58-Vf3" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="88" width="414" height="300"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="dkI-JG-CfW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fYX-Ty-HQc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Rx-58-Vf3" firstAttribute="top" secondItem="fYX-Ty-HQc" secondAttribute="top" id="CLB-86-f1E"/>
+                            <constraint firstItem="fYX-Ty-HQc" firstAttribute="trailing" secondItem="0Rx-58-Vf3" secondAttribute="trailing" id="gkw-ap-wVc"/>
+                            <constraint firstItem="0Rx-58-Vf3" firstAttribute="leading" secondItem="fYX-Ty-HQc" secondAttribute="leading" id="zP6-jl-dyy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lma-4n-Csi"/>
+                    <connections>
+                        <outlet property="imagePoster" destination="WGr-md-nar" id="ZwU-M9-fg6"/>
+                        <outlet property="lblMovieTitle" destination="yw2-zk-SpZ" id="Omv-iK-sTD"/>
+                        <outlet property="playerView" destination="0Rx-58-Vf3" id="xRJ-Ay-ASM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sv9-e3-bhu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2757.971014492754" y="864.50892857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gmo-Vu-Txw">
@@ -1268,6 +1338,9 @@ Analyst</string>
         <image name="random" width="326.5" height="289"/>
         <image name="reading" width="145" height="143"/>
         <image name="sport" width="142" height="140.5"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

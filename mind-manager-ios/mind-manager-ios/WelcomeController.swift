@@ -44,6 +44,9 @@ class WelcomeController: UIViewController{
 
     }
     
+    @IBOutlet weak var lblLogin: UIBarButtonItem!
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "moreMoody" ||
             segue.identifier == "happier" ||
