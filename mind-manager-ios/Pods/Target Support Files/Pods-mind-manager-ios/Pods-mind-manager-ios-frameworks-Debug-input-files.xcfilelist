@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework

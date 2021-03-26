@@ -50,13 +50,20 @@ class GameController: UIViewController {
             lblResult.text = "The word '\(userInput.lowercased())' is wrong!\n Try again!"
         }
         
-        else if happierWords.contains(userInput.lowercased()) && (counter > 1) && foundArray.contains(userInput.lowercased()) == false {
-            lblWordsFound.text = ""
-            lblResult.textColor = UIColor.black
-            counter -= 1
-            lblResult.text = "You found '\(userInput.lowercased())'!\nThere is \(counter) to go"
-            inputResult.text = ""
-            foundArray.append(userInput.lowercased())
+        else if happierWords.contains(userInput.lowercased()) && (counter > 1) {
+            if foundArray.contains(userInput.lowercased()) == false {
+                lblWordsFound.text = ""
+                lblResult.textColor = UIColor.black
+                counter -= 1
+                lblResult.text = "You found '\(userInput.lowercased())'!\nThere is \(counter) to go"
+                inputResult.text = ""
+                foundArray.append(userInput.lowercased())
+            }
+            else if foundArray.contains(userInput.lowercased()) {
+                inputResult.text = ""
+                lblResult.textColor = UIColor.red
+                lblResult.text = "You already found '\(userInput.lowercased())'!\nThere is \(counter) to go"
+            }
             
             // print the words that was already found
             for word in foundArray {
@@ -81,7 +88,6 @@ class GameController: UIViewController {
                 lblWordsFound.text! += "\(word)\n"
             }
         }
-        
     }
     
     override func viewDidLoad() {
