@@ -9,6 +9,13 @@ import UIKit
 
 class GameController: UIViewController {
     
+    // word hunt images randomly selected
+    let happierArray = [#imageLiteral(resourceName: "crossword_happier"), #imageLiteral(resourceName: "crossword_happier2"), #imageLiteral(resourceName: "crossword_happier3")]
+    let moodyArray = [#imageLiteral(resourceName: "crossword_moody"), #imageLiteral(resourceName: "crossword_moody2"), #imageLiteral(resourceName: "crossword_moody3")]
+    let energeticArray = [#imageLiteral(resourceName: "crossword_energetic"), #imageLiteral(resourceName: "crossword_energetic2"), #imageLiteral(resourceName: "crossword_energetic3")]
+    let calmerArray = [#imageLiteral(resourceName: "crossword_calmer"), #imageLiteral(resourceName: "crossword_calmer2"), #imageLiteral(resourceName: "crossword_calmer3")]
+    let relaxedArray = [#imageLiteral(resourceName: "crossword_relaxed"), #imageLiteral(resourceName: "crossword_relaxed2"), #imageLiteral(resourceName: "crossword_relaxed3")]
+    
     // Instance of SuggestionsController
     var instanceSuggestion = SuggestionsController()
     
@@ -35,7 +42,13 @@ class GameController: UIViewController {
     // Check Button - display result in the lblResult
     @IBAction func btnCheck(_ sender: Any) {
         
+        // Words in the game
         let happierWords = ["cheerful", "ecstatic", "overjoyed", "joyful"]
+        let moodyWords = ["overwhelm", "emotional", "reflective", "melancholy"]
+        let energeticWords = ["active", "dynamic", "spirited", "tireless"]
+        let calmerWords = ["serene", "soothing", "tranquil", "pacific"]
+        let relaxedWords = ["casual", "laid back", "tranquil", "patient"]
+
         
         let userInput =  inputResult.text ?? ""
         
@@ -96,7 +109,7 @@ class GameController: UIViewController {
         
         // HAVE TO CHECK WHICH BUTTON WAS CLICKED
         // Get a random element (image) from the array
-        wordSearchImage.image = instanceSuggestion.happierArray.randomElement()
+        wordSearchImage.image = happierArray.randomElement()
         lblResult.text = ""
         lblWordsFound.text = ""
     }

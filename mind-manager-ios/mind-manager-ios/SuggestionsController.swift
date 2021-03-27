@@ -5,14 +5,9 @@
 //  Created by Fantastic Five on 16/03/21.
 //
 
-import SideMenu
 import UIKit
 
 class SuggestionsController: UIViewController{
-    
-    let happierArray = [#imageLiteral(resourceName: "crossword_happier"), #imageLiteral(resourceName: "crossword_happier2"), #imageLiteral(resourceName: "crossword_happier3")]
-    let moodyArray = [#imageLiteral(resourceName: "crossword_moody")]
-    
     
     
     @IBAction func btnPlay(_ sender: Any) {
