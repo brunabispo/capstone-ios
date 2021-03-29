@@ -34,15 +34,6 @@ class MoodySuggestionsController: UIViewController{
     var calmerMovie = ["pvQZfLavWfU"]
     // ["The Tree of Life"]
     
-    // Energetic
-    var energeticMusic = ["qpiilPFQtwM", "y1IlYTmX2hI"]
-    // ["Play Hard - David Guetta", "Don't Say Goodbye - Alok"]
-    var energeticSport = ["Laser-Tag", "Running"]
-    var energeticReading = ["Hunger Games - Suzanne Collins",
-                         "Harry Potter and the Goblet of Fire - J. K. Rolling"]
-    var energeticMovie = ["uvbavW31adA"]
-    // ["Gladiator"]
-    
     // Moody
     var moodyMusic = ["TdrL3QxjyVw", "osdoLjUNFnA"]
     // ["Summertime Sadness - Lana Del Rey", "Exile - Taylor Swift"]

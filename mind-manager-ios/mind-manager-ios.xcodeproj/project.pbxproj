@@ -11,6 +11,10 @@
 		AB06C4CD26126147009F011E /* HappierSuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4CC26126147009F011E /* HappierSuggestionsController.swift */; };
 		AB06C4D02612640F009F011E /* HappierMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4CF2612640F009F011E /* HappierMusicPlayerController.swift */; };
 		AB06C4D326126633009F011E /* HappierMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4D226126633009F011E /* HappierMoviesPlayerController.swift */; };
+		AB06C4D626126B8E009F011E /* EnergeticSuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4D526126B8E009F011E /* EnergeticSuggestionsController.swift */; };
+		AB06C4DA26126C8D009F011E /* EnergeticGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4D926126C8D009F011E /* EnergeticGameController.swift */; };
+		AB06C4DD26126E05009F011E /* EnergeticMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4DC26126E05009F011E /* EnergeticMusicPlayerController.swift */; };
+		AB06C4E126126FB2009F011E /* EnergeticMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4E026126FB2009F011E /* EnergeticMoviesPlayerController.swift */; };
 		AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A057B260BEA7100BB7300 /* LoginController.swift */; };
 		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
 		ABA1DBA3260E375800A87CBD /* MoodyMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */; };
@@ -36,6 +40,10 @@
 		AB06C4CC26126147009F011E /* HappierSuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappierSuggestionsController.swift; sourceTree = "<group>"; };
 		AB06C4CF2612640F009F011E /* HappierMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappierMusicPlayerController.swift; sourceTree = "<group>"; };
 		AB06C4D226126633009F011E /* HappierMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappierMoviesPlayerController.swift; sourceTree = "<group>"; };
+		AB06C4D526126B8E009F011E /* EnergeticSuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticSuggestionsController.swift; sourceTree = "<group>"; };
+		AB06C4D926126C8D009F011E /* EnergeticGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticGameController.swift; sourceTree = "<group>"; };
+		AB06C4DC26126E05009F011E /* EnergeticMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticMusicPlayerController.swift; sourceTree = "<group>"; };
+		AB06C4E026126FB2009F011E /* EnergeticMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticMoviesPlayerController.swift; sourceTree = "<group>"; };
 		AB1A057B260BEA7100BB7300 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		AB463C022601428500860BA2 /* SuggestionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionProtocol.swift; sourceTree = "<group>"; };
 		ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyMoviesPlayerController.swift; sourceTree = "<group>"; };
@@ -99,25 +107,29 @@
 			isa = PBXGroup;
 			children = (
 				ABA471B125F29D7C0086E8DA /* AppDelegate.swift */,
-				ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */,
-				ABA471B525F29D7C0086E8DA /* WelcomeController.swift */,
-				AB1A057B260BEA7100BB7300 /* LoginController.swift */,
-				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
-				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
-				ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */,
-				AB06C4CC26126147009F011E /* HappierSuggestionsController.swift */,
-				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
-				ABF282C32603CD88007DEF0D /* MoodyGameController.swift */,
-				AB06C4C926125F4F009F011E /* HappierGameController.swift */,
-				ABF282C02603CD0B007DEF0D /* QuestionsController.swift */,
 				ABA471BD25F29D7F0086E8DA /* Assets.xcassets */,
-				ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */,
-				ABA471C225F29D7F0086E8DA /* Info.plist */,
-				ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */,
-				ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */,
-				AB06C4CF2612640F009F011E /* HappierMusicPlayerController.swift */,
-				ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */,
+				AB06C4D926126C8D009F011E /* EnergeticGameController.swift */,
+				AB06C4DC26126E05009F011E /* EnergeticMusicPlayerController.swift */,
+				AB06C4D526126B8E009F011E /* EnergeticSuggestionsController.swift */,
+				AB06C4C926125F4F009F011E /* HappierGameController.swift */,
 				AB06C4D226126633009F011E /* HappierMoviesPlayerController.swift */,
+				AB06C4CF2612640F009F011E /* HappierMusicPlayerController.swift */,
+				AB06C4CC26126147009F011E /* HappierSuggestionsController.swift */,
+				ABA471C225F29D7F0086E8DA /* Info.plist */,
+				ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */,
+				AB1A057B260BEA7100BB7300 /* LoginController.swift */,
+				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
+				ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */,
+				ABF282C32603CD88007DEF0D /* MoodyGameController.swift */,
+				ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */,
+				AB06C4E026126FB2009F011E /* EnergeticMoviesPlayerController.swift */,
+				ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */,
+				ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */,
+				ABF282C02603CD0B007DEF0D /* QuestionsController.swift */,
+				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
+				ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */,
+				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
+				ABA471B525F29D7C0086E8DA /* WelcomeController.swift */,
 			);
 			path = "mind-manager-ios";
 			sourceTree = "<group>";
@@ -248,10 +260,14 @@
 				ABDD00B9260C03D7006C18C0 /* MoodySuggestionsController.swift in Sources */,
 				AB06C4CA26125F4F009F011E /* HappierGameController.swift in Sources */,
 				AB06C4D326126633009F011E /* HappierMoviesPlayerController.swift in Sources */,
+				AB06C4DD26126E05009F011E /* EnergeticMusicPlayerController.swift in Sources */,
+				AB06C4DA26126C8D009F011E /* EnergeticGameController.swift in Sources */,
 				ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */,
 				ABA1DBA3260E375800A87CBD /* MoodyMoviesPlayerController.swift in Sources */,
 				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
+				AB06C4E126126FB2009F011E /* EnergeticMoviesPlayerController.swift in Sources */,
+				AB06C4D626126B8E009F011E /* EnergeticSuggestionsController.swift in Sources */,
 				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,
 				ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */,
 				AB06C4CD26126147009F011E /* HappierSuggestionsController.swift in Sources */,

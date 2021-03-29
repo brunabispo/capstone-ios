@@ -8,33 +8,31 @@
 import UIKit
 import youtube_ios_player_helper
 
-class HappierMusicPlayerController: UIViewController, YTPlayerViewDelegate {
-    
+class EnergeticMusicPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var lblSongName: UILabel!
-
+    
     @IBOutlet weak var lblArtistName: UILabel!
     
-    let happierSuggestions = HappierSuggestionsController()
-
+    let energeticSuggestions = EnergeticSuggestionsController()
+    
     @IBOutlet var playerView: YTPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         playerView.delegate = self
-        let videoID = happierSuggestions.happierMusic.randomElement() ?? ""
+        let videoID = energeticSuggestions.energeticMusic.randomElement() ?? ""
         playerView.load(withVideoId: videoID, playerVars: ["playsinline": 1])
         
-        if videoID == "U5TqIdff_DQ" && videoID != "" {
-            lblSongName.text = "I Got You (I Feel Good)"
-            lblArtistName.text = "James Brown"
-            
+        if videoID == "qpiilPFQtwM" && videoID != "" {
+            lblSongName.text = "Play Hard"
+            lblArtistName.text = "David Guetta"
         }
         
-        if videoID == "LSJKz9iAjgY" && videoID != "" {
-            lblSongName.text = "Who's Laughing Now"
-            lblArtistName.text = "Ava Max"
+        if videoID == "y1IlYTmX2hI" && videoID != "" {
+            lblSongName.text = "Don't Say Goodbye"
+            lblArtistName.text = "Alok (ft. Tove Lo)"
         }
         
         if videoID == "" {
