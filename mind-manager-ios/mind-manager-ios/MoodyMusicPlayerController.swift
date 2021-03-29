@@ -8,25 +8,27 @@
 import UIKit
 import youtube_ios_player_helper
 
-class MusicPlayerController: UIViewController, YTPlayerViewDelegate {
+class MoodyMusicPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var lblSongName: UILabel!
     
     @IBOutlet weak var lblArtistName: UILabel!
     
-    let suggestionsController = SuggestionsController()
+    let moodySuggestions = MoodySuggestionsController()
     
     @IBOutlet var playerView: YTPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         playerView.delegate = self
-        let videoID = suggestionsController.happierMusic.randomElement() ?? ""
+        let videoID = moodySuggestions.moodyMusic.randomElement() ?? ""
         playerView.load(withVideoId: videoID, playerVars: ["playsinline": 1])
         
         if videoID == "U5TqIdff_DQ" && videoID != "" {
-            lblSongName.text = "I Feel Good"
+            lblSongName.text = "I Got You (I Feel Good)"
             lblArtistName.text = "James Brown"
+            
         }
         
         if videoID == "LSJKz9iAjgY" && videoID != "" {
@@ -89,8 +91,10 @@ class MusicPlayerController: UIViewController, YTPlayerViewDelegate {
             lblArtistName.text = ""
         }
     }
+        
     
     func playerViewDidBecomeReady(_ playerView: YTPlayerView) {
         playerView.playVideo()
     }
+    
 }

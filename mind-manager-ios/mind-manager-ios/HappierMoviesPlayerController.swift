@@ -8,21 +8,21 @@
 import UIKit
 import youtube_ios_player_helper
 
-class MoviesPlayerController: UIViewController, YTPlayerViewDelegate {
+class HappierMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var lblMovieTitle: UILabel!
     
     @IBOutlet weak var imagePoster: UIImageView!
     
-    let suggestionsController = SuggestionsController()
+    let happierSuggestions = HappierSuggestionsController()
     
     @IBOutlet var playerView: YTPlayerView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         playerView.delegate = self
-//        let videoID = suggestionsController.happierMovie.randomElement() ?? ""
-        let videoID = suggestionsController.happierMovie.randomElement() ?? ""
+        let videoID = happierSuggestions.happierMovie.randomElement() ?? ""
         playerView.load(withVideoId: videoID, playerVars: ["playsinline": 1])
         
         if videoID == "pvQZfLavWfU" && videoID != "" {

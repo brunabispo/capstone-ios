@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB06C4CA26125F4F009F011E /* HappierGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4C926125F4F009F011E /* HappierGameController.swift */; };
+		AB06C4CD26126147009F011E /* HappierSuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4CC26126147009F011E /* HappierSuggestionsController.swift */; };
+		AB06C4D02612640F009F011E /* HappierMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4CF2612640F009F011E /* HappierMusicPlayerController.swift */; };
+		AB06C4D326126633009F011E /* HappierMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4D226126633009F011E /* HappierMoviesPlayerController.swift */; };
 		AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A057B260BEA7100BB7300 /* LoginController.swift */; };
 		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
-		ABA1DBA3260E375800A87CBD /* MoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1DBA2260E375800A87CBD /* MoviesPlayerController.swift */; };
+		ABA1DBA3260E375800A87CBD /* MoodyMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */; };
 		ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B125F29D7C0086E8DA /* AppDelegate.swift */; };
 		ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */; };
 		ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA471B525F29D7C0086E8DA /* WelcomeController.swift */; };
@@ -17,20 +21,24 @@
 		ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */; };
 		ABA471BE25F29D7F0086E8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA471BD25F29D7F0086E8DA /* Assets.xcassets */; };
 		ABA471C125F29D7F0086E8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */; };
-		ABDD00B9260C03D7006C18C0 /* SuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD00B8260C03D7006C18C0 /* SuggestionsController.swift */; };
+		ABDD00B9260C03D7006C18C0 /* MoodySuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */; };
 		ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C02603CD0B007DEF0D /* QuestionsController.swift */; };
-		ABF282C42603CD88007DEF0D /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C32603CD88007DEF0D /* GameController.swift */; };
+		ABF282C42603CD88007DEF0D /* MoodyGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C32603CD88007DEF0D /* MoodyGameController.swift */; };
 		ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282CC2603E080007DEF0D /* RegistrationController.swift */; };
-		ABF34533260D639100832962 /* MusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF34532260D639100832962 /* MusicPlayerController.swift */; };
+		ABF34533260D639100832962 /* MoodyMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */; };
 		D6C9BC0919579AA6FF30481F /* Pods_mind_manager_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6615581FCA70DB2078130EB2 /* Pods-mind-manager-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mind-manager-ios.release.xcconfig"; path = "Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios.release.xcconfig"; sourceTree = "<group>"; };
 		7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mind_manager_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB06C4C926125F4F009F011E /* HappierGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappierGameController.swift; sourceTree = "<group>"; };
+		AB06C4CC26126147009F011E /* HappierSuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappierSuggestionsController.swift; sourceTree = "<group>"; };
+		AB06C4CF2612640F009F011E /* HappierMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappierMusicPlayerController.swift; sourceTree = "<group>"; };
+		AB06C4D226126633009F011E /* HappierMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappierMoviesPlayerController.swift; sourceTree = "<group>"; };
 		AB1A057B260BEA7100BB7300 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		AB463C022601428500860BA2 /* SuggestionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionProtocol.swift; sourceTree = "<group>"; };
-		ABA1DBA2260E375800A87CBD /* MoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPlayerController.swift; sourceTree = "<group>"; };
+		ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyMoviesPlayerController.swift; sourceTree = "<group>"; };
 		ABA471AE25F29D7C0086E8DA /* mind-manager-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mind-manager-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA471B125F29D7C0086E8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +48,11 @@
 		ABA471BD25F29D7F0086E8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA471C025F29D7F0086E8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABA471C225F29D7F0086E8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABDD00B8260C03D7006C18C0 /* SuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsController.swift; sourceTree = "<group>"; };
+		ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodySuggestionsController.swift; sourceTree = "<group>"; };
 		ABF282C02603CD0B007DEF0D /* QuestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsController.swift; sourceTree = "<group>"; };
-		ABF282C32603CD88007DEF0D /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		ABF282C32603CD88007DEF0D /* MoodyGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyGameController.swift; sourceTree = "<group>"; };
 		ABF282CC2603E080007DEF0D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
-		ABF34532260D639100832962 /* MusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerController.swift; sourceTree = "<group>"; };
+		ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyMusicPlayerController.swift; sourceTree = "<group>"; };
 		D1E8ACBCDEA6B4AD011B38D4 /* Pods-mind-manager-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mind-manager-ios.debug.xcconfig"; path = "Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,16 +104,20 @@
 				AB1A057B260BEA7100BB7300 /* LoginController.swift */,
 				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
 				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
-				ABDD00B8260C03D7006C18C0 /* SuggestionsController.swift */,
+				ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */,
+				AB06C4CC26126147009F011E /* HappierSuggestionsController.swift */,
 				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
-				ABF282C32603CD88007DEF0D /* GameController.swift */,
+				ABF282C32603CD88007DEF0D /* MoodyGameController.swift */,
+				AB06C4C926125F4F009F011E /* HappierGameController.swift */,
 				ABF282C02603CD0B007DEF0D /* QuestionsController.swift */,
 				ABA471BD25F29D7F0086E8DA /* Assets.xcassets */,
 				ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */,
 				ABA471C225F29D7F0086E8DA /* Info.plist */,
 				ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */,
-				ABF34532260D639100832962 /* MusicPlayerController.swift */,
-				ABA1DBA2260E375800A87CBD /* MoviesPlayerController.swift */,
+				ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */,
+				AB06C4CF2612640F009F011E /* HappierMusicPlayerController.swift */,
+				ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */,
+				AB06C4D226126633009F011E /* HappierMoviesPlayerController.swift */,
 			);
 			path = "mind-manager-ios";
 			sourceTree = "<group>";
@@ -233,15 +245,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */,
-				ABDD00B9260C03D7006C18C0 /* SuggestionsController.swift in Sources */,
+				ABDD00B9260C03D7006C18C0 /* MoodySuggestionsController.swift in Sources */,
+				AB06C4CA26125F4F009F011E /* HappierGameController.swift in Sources */,
+				AB06C4D326126633009F011E /* HappierMoviesPlayerController.swift in Sources */,
 				ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */,
-				ABA1DBA3260E375800A87CBD /* MoviesPlayerController.swift in Sources */,
+				ABA1DBA3260E375800A87CBD /* MoodyMoviesPlayerController.swift in Sources */,
 				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
 				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,
 				ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */,
-				ABF34533260D639100832962 /* MusicPlayerController.swift in Sources */,
-				ABF282C42603CD88007DEF0D /* GameController.swift in Sources */,
+				AB06C4CD26126147009F011E /* HappierSuggestionsController.swift in Sources */,
+				AB06C4D02612640F009F011E /* HappierMusicPlayerController.swift in Sources */,
+				ABF34533260D639100832962 /* MoodyMusicPlayerController.swift in Sources */,
+				ABF282C42603CD88007DEF0D /* MoodyGameController.swift in Sources */,
 				ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */,
 				ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */,
 			);

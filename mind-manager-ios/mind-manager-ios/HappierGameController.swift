@@ -7,20 +7,10 @@
 
 import UIKit
 
-class GameController: UIViewController {
+class HappierGameController: UIViewController {
     
     // word hunt images randomly selected
     let happierArray = [#imageLiteral(resourceName: "crossword_happier"), #imageLiteral(resourceName: "crossword_happier2"), #imageLiteral(resourceName: "crossword_happier3")]
-    let moodyArray = [#imageLiteral(resourceName: "crossword_moody"), #imageLiteral(resourceName: "crossword_moody2"), #imageLiteral(resourceName: "crossword_moody3")]
-    let energeticArray = [#imageLiteral(resourceName: "crossword_energetic"), #imageLiteral(resourceName: "crossword_energetic2"), #imageLiteral(resourceName: "crossword_energetic3")]
-    let calmerArray = [#imageLiteral(resourceName: "crossword_calmer"), #imageLiteral(resourceName: "crossword_calmer2"), #imageLiteral(resourceName: "crossword_calmer3")]
-    let relaxedArray = [#imageLiteral(resourceName: "crossword_relaxed"), #imageLiteral(resourceName: "crossword_relaxed2"), #imageLiteral(resourceName: "crossword_relaxed3")]
-    
-    // Instance of SuggestionsController
-    var instanceSuggestion = SuggestionsController()
-    
-    // Instance of ViewController
-    var instanceMain = WelcomeController()
     
     // Word Search Image View
     @IBOutlet weak var wordSearchImage: UIImageView!
@@ -31,9 +21,12 @@ class GameController: UIViewController {
     // Label where the result will be displayed after clicking btnCheck
     @IBOutlet weak var lblResult: UILabel!
     
+    // Label to show the words that were already found
     @IBOutlet weak var lblWordsFound: UILabel!
     
+    // To disable the check button once the game is over
     @IBOutlet weak var tapCheck: UIButton!
+    
     
     
     var counter = 4
@@ -41,13 +34,8 @@ class GameController: UIViewController {
     
     // Check Button - display result in the lblResult
     @IBAction func btnCheck(_ sender: Any) {
-        
         // Words in the game
         let happierWords = ["cheerful", "ecstatic", "overjoyed", "joyful"]
-        let moodyWords = ["overwhelm", "emotional", "reflective", "melancholy"]
-        let energeticWords = ["active", "dynamic", "spirited", "tireless"]
-        let calmerWords = ["serene", "soothing", "tranquil", "pacific"]
-        let relaxedWords = ["casual", "laid back", "tranquil", "patient"]
 
         
         let userInput =  inputResult.text ?? ""
@@ -71,16 +59,16 @@ class GameController: UIViewController {
                 lblResult.text = "You found '\(userInput.lowercased())'!\nThere is \(counter) to go"
                 inputResult.text = ""
                 foundArray.append(userInput.lowercased())
+                
+                // print the words that was already found
+                for word in foundArray {
+                    lblWordsFound.text! += "\(word)\n"
+                }
             }
             else if foundArray.contains(userInput.lowercased()) {
                 inputResult.text = ""
                 lblResult.textColor = UIColor.red
                 lblResult.text = "You already found '\(userInput.lowercased())'!\nThere is \(counter) to go"
-            }
-            
-            // print the words that was already found
-            for word in foundArray {
-                lblWordsFound.text! += "\(word)\n"
             }
             
         }
