@@ -1,33 +1,34 @@
 //
-//  MoodyMoviesPlayerController.swift
+//  RelaxedMoviesPlayerController.swift
 //  mind-manager-ios
 //
-//  Created by Fantastic Five on 25/03/21.
+//  Created by Bruna Bispo on 29/03/21.
 //
 
 import UIKit
 import youtube_ios_player_helper
 
-class MoodyMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
+class RelaxedMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var lblMovieTitle: UILabel!
     
     @IBOutlet weak var imagePoster: UIImageView!
     
-    let moodySuggestions = MoodySuggestionsController()
+    let relaxedSuggestions = RelaxedSuggestionsController()
     
     @IBOutlet var playerView: YTPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         playerView.delegate = self
-        let videoID = moodySuggestions.moodyMovie.randomElement() ?? ""
+        let videoID = relaxedSuggestions.relaxedMovie.randomElement() ?? ""
         playerView.load(withVideoId: videoID, playerVars: ["playsinline": 1])
         
-        if videoID == "xOsLIiBStEs" && videoID != "" {
-            lblMovieTitle.text = "Soul"
-            imagePoster.image = UIImage(named: "soul")
+        if videoID == "FF_rYNupPwg" && videoID != "" {
+            lblMovieTitle.text = "Chef"
+            imagePoster.image = UIImage(named: "chef")
         }
+        
         
         if videoID == "" {
             lblMovieTitle.text = ""

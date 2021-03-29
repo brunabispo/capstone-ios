@@ -1,32 +1,32 @@
 //
-//  MoodyMoviesPlayerController.swift
+//  CalmerMoviesPlayerController.swift
 //  mind-manager-ios
 //
-//  Created by Fantastic Five on 25/03/21.
+//  Created by Fantastic Five on 29/03/21.
 //
 
 import UIKit
 import youtube_ios_player_helper
 
-class MoodyMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
+class CalmerMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var lblMovieTitle: UILabel!
     
     @IBOutlet weak var imagePoster: UIImageView!
     
-    let moodySuggestions = MoodySuggestionsController()
+    let calmerSuggestions = CalmerSuggestionsController()
     
     @IBOutlet var playerView: YTPlayerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         playerView.delegate = self
-        let videoID = moodySuggestions.moodyMovie.randomElement() ?? ""
+        let videoID = calmerSuggestions.calmerMovie.randomElement() ?? ""
         playerView.load(withVideoId: videoID, playerVars: ["playsinline": 1])
         
-        if videoID == "xOsLIiBStEs" && videoID != "" {
-            lblMovieTitle.text = "Soul"
-            imagePoster.image = UIImage(named: "soul")
+        if videoID == "pvQZfLavWfU" && videoID != "" {
+            lblMovieTitle.text = "The Tree of Life"
+            imagePoster.image = UIImage(named: "the_tree_of_life")
         }
         
         if videoID == "" {
@@ -38,3 +38,4 @@ class MoodyMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
         playerView.playVideo()
     }
 }
+

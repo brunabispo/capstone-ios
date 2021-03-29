@@ -1,16 +1,16 @@
 //
-//  GameController.swift
+//  CalmerGameController.swift
 //  mind-manager-ios
 //
-//  Created by Fantastic Five on 18/03/21.
+//  Created by Fantastic Five on 29/03/21.
 //
 
 import UIKit
 
-class MoodyGameController: UIViewController {
+class CalmerGameController: UIViewController {
     
     // word hunt images randomly selected
-    let moodyArray = [#imageLiteral(resourceName: "crossword_moody"), #imageLiteral(resourceName: "crossword_moody2"), #imageLiteral(resourceName: "crossword_moody3")]
+    let calmerArray = [#imageLiteral(resourceName: "crossword_calmer"), #imageLiteral(resourceName: "crossword_calmer2"), #imageLiteral(resourceName: "crossword_calmer3")]
     
     // Word Search Image View
     @IBOutlet weak var wordSearchImage: UIImageView!
@@ -33,7 +33,7 @@ class MoodyGameController: UIViewController {
     @IBAction func btnCheck(_ sender: Any) {
         
         // Words in the game
-        let moodyWords = ["overwhelm", "emotional", "reflective", "melancholy"]
+        let calmerWords = ["serene", "soothing", "tranquil", "pacific"]
 
         
         let userInput =  inputResult.text ?? ""
@@ -44,12 +44,12 @@ class MoodyGameController: UIViewController {
             inputResult.text = ""
         }
         
-        else if !moodyWords.contains(userInput.lowercased()) {
+        else if !calmerWords.contains(userInput.lowercased()) {
             lblResult.textColor = UIColor.red
             lblResult.text = "The word '\(userInput.lowercased())' is wrong!\n Try again!"
         }
         
-        else if moodyWords.contains(userInput.lowercased()) && (counter > 1) {
+        else if calmerWords.contains(userInput.lowercased()) && (counter > 1) {
             if foundArray.contains(userInput.lowercased()) == false {
                 lblWordsFound.text = ""
                 lblResult.textColor = UIColor.black
@@ -71,7 +71,7 @@ class MoodyGameController: UIViewController {
             
         }
         
-        else if moodyWords.contains(userInput.lowercased()) && (counter == 1) && foundArray.contains(userInput.lowercased()) == false {
+        else if calmerWords.contains(userInput.lowercased()) && (counter == 1) && foundArray.contains(userInput.lowercased()) == false {
             lblWordsFound.text = ""
             lblResult.textColor = UIColor.blue
             lblResult.text = "You found '\(userInput.lowercased())'!\nYou found them all!"
@@ -95,8 +95,9 @@ class MoodyGameController: UIViewController {
         
         // HAVE TO CHECK WHICH BUTTON WAS CLICKED
         // Get a random element (image) from the array
-        wordSearchImage.image = moodyArray.randomElement()
+        wordSearchImage.image = calmerArray.randomElement()
         lblResult.text = ""
         lblWordsFound.text = ""
     }
 }
+

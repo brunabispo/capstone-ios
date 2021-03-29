@@ -15,6 +15,14 @@
 		AB06C4DA26126C8D009F011E /* EnergeticGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4D926126C8D009F011E /* EnergeticGameController.swift */; };
 		AB06C4DD26126E05009F011E /* EnergeticMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4DC26126E05009F011E /* EnergeticMusicPlayerController.swift */; };
 		AB06C4E126126FB2009F011E /* EnergeticMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4E026126FB2009F011E /* EnergeticMoviesPlayerController.swift */; };
+		AB06C4E5261274CE009F011E /* CalmerSuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4E4261274CE009F011E /* CalmerSuggestionsController.swift */; };
+		AB06C4E8261275C7009F011E /* CalmerGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4E7261275C7009F011E /* CalmerGameController.swift */; };
+		AB06C4EC26127754009F011E /* CalmerMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4EB26127754009F011E /* CalmerMusicPlayerController.swift */; };
+		AB06C4EF26127898009F011E /* CalmerMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4EE26127898009F011E /* CalmerMoviesPlayerController.swift */; };
+		AB06C4F326127C8C009F011E /* RelaxedSuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4F226127C8C009F011E /* RelaxedSuggestionsController.swift */; };
+		AB06C4F626127D5D009F011E /* RelaxedGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4F526127D5D009F011E /* RelaxedGameController.swift */; };
+		AB06C4F926127E38009F011E /* RelaxedMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4F826127E38009F011E /* RelaxedMusicPlayerController.swift */; };
+		AB06C4FC26127F11009F011E /* RelaxedMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06C4FB26127F11009F011E /* RelaxedMoviesPlayerController.swift */; };
 		AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A057B260BEA7100BB7300 /* LoginController.swift */; };
 		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
 		ABA1DBA3260E375800A87CBD /* MoodyMoviesPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */; };
@@ -44,6 +52,14 @@
 		AB06C4D926126C8D009F011E /* EnergeticGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticGameController.swift; sourceTree = "<group>"; };
 		AB06C4DC26126E05009F011E /* EnergeticMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticMusicPlayerController.swift; sourceTree = "<group>"; };
 		AB06C4E026126FB2009F011E /* EnergeticMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticMoviesPlayerController.swift; sourceTree = "<group>"; };
+		AB06C4E4261274CE009F011E /* CalmerSuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmerSuggestionsController.swift; sourceTree = "<group>"; };
+		AB06C4E7261275C7009F011E /* CalmerGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmerGameController.swift; sourceTree = "<group>"; };
+		AB06C4EB26127754009F011E /* CalmerMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmerMusicPlayerController.swift; sourceTree = "<group>"; };
+		AB06C4EE26127898009F011E /* CalmerMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmerMoviesPlayerController.swift; sourceTree = "<group>"; };
+		AB06C4F226127C8C009F011E /* RelaxedSuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxedSuggestionsController.swift; sourceTree = "<group>"; };
+		AB06C4F526127D5D009F011E /* RelaxedGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxedGameController.swift; sourceTree = "<group>"; };
+		AB06C4F826127E38009F011E /* RelaxedMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxedMusicPlayerController.swift; sourceTree = "<group>"; };
+		AB06C4FB26127F11009F011E /* RelaxedMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxedMoviesPlayerController.swift; sourceTree = "<group>"; };
 		AB1A057B260BEA7100BB7300 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		AB463C022601428500860BA2 /* SuggestionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionProtocol.swift; sourceTree = "<group>"; };
 		ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyMoviesPlayerController.swift; sourceTree = "<group>"; };
@@ -108,7 +124,12 @@
 			children = (
 				ABA471B125F29D7C0086E8DA /* AppDelegate.swift */,
 				ABA471BD25F29D7F0086E8DA /* Assets.xcassets */,
+				AB06C4E7261275C7009F011E /* CalmerGameController.swift */,
+				AB06C4EE26127898009F011E /* CalmerMoviesPlayerController.swift */,
+				AB06C4EB26127754009F011E /* CalmerMusicPlayerController.swift */,
+				AB06C4E4261274CE009F011E /* CalmerSuggestionsController.swift */,
 				AB06C4D926126C8D009F011E /* EnergeticGameController.swift */,
+				AB06C4E026126FB2009F011E /* EnergeticMoviesPlayerController.swift */,
 				AB06C4DC26126E05009F011E /* EnergeticMusicPlayerController.swift */,
 				AB06C4D526126B8E009F011E /* EnergeticSuggestionsController.swift */,
 				AB06C4C926125F4F009F011E /* HappierGameController.swift */,
@@ -121,10 +142,13 @@
 				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
 				ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */,
 				ABF282C32603CD88007DEF0D /* MoodyGameController.swift */,
+				AB06C4F526127D5D009F011E /* RelaxedGameController.swift */,
 				ABA1DBA2260E375800A87CBD /* MoodyMoviesPlayerController.swift */,
-				AB06C4E026126FB2009F011E /* EnergeticMoviesPlayerController.swift */,
+				AB06C4FB26127F11009F011E /* RelaxedMoviesPlayerController.swift */,
 				ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */,
+				AB06C4F826127E38009F011E /* RelaxedMusicPlayerController.swift */,
 				ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */,
+				AB06C4F226127C8C009F011E /* RelaxedSuggestionsController.swift */,
 				ABF282C02603CD0B007DEF0D /* QuestionsController.swift */,
 				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
 				ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */,
@@ -258,13 +282,19 @@
 			files = (
 				AB1A057C260BEA7100BB7300 /* LoginController.swift in Sources */,
 				ABDD00B9260C03D7006C18C0 /* MoodySuggestionsController.swift in Sources */,
+				AB06C4F926127E38009F011E /* RelaxedMusicPlayerController.swift in Sources */,
 				AB06C4CA26125F4F009F011E /* HappierGameController.swift in Sources */,
 				AB06C4D326126633009F011E /* HappierMoviesPlayerController.swift in Sources */,
 				AB06C4DD26126E05009F011E /* EnergeticMusicPlayerController.swift in Sources */,
 				AB06C4DA26126C8D009F011E /* EnergeticGameController.swift in Sources */,
+				AB06C4EC26127754009F011E /* CalmerMusicPlayerController.swift in Sources */,
 				ABA471B625F29D7C0086E8DA /* WelcomeController.swift in Sources */,
+				AB06C4F326127C8C009F011E /* RelaxedSuggestionsController.swift in Sources */,
 				ABA1DBA3260E375800A87CBD /* MoodyMoviesPlayerController.swift in Sources */,
+				AB06C4EF26127898009F011E /* CalmerMoviesPlayerController.swift in Sources */,
 				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
+				AB06C4E8261275C7009F011E /* CalmerGameController.swift in Sources */,
+				AB06C4E5261274CE009F011E /* CalmerSuggestionsController.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
 				AB06C4E126126FB2009F011E /* EnergeticMoviesPlayerController.swift in Sources */,
 				AB06C4D626126B8E009F011E /* EnergeticSuggestionsController.swift in Sources */,
@@ -272,6 +302,8 @@
 				ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */,
 				AB06C4CD26126147009F011E /* HappierSuggestionsController.swift in Sources */,
 				AB06C4D02612640F009F011E /* HappierMusicPlayerController.swift in Sources */,
+				AB06C4F626127D5D009F011E /* RelaxedGameController.swift in Sources */,
+				AB06C4FC26127F11009F011E /* RelaxedMoviesPlayerController.swift in Sources */,
 				ABF34533260D639100832962 /* MoodyMusicPlayerController.swift in Sources */,
 				ABF282C42603CD88007DEF0D /* MoodyGameController.swift in Sources */,
 				ABA471B425F29D7C0086E8DA /* SceneDelegate.swift in Sources */,
