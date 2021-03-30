@@ -35,6 +35,46 @@ class RelaxedMusicPlayerController: UIViewController, YTPlayerViewDelegate {
             lblArtistName.text = "A N X"
         }
         
+        if videoID == "gAuUeIz0olM" && videoID != "" {
+            lblSongName.text = "Swoon"
+            lblArtistName.text = "Gray"
+        }
+
+        if videoID == "cxoyh7RV4Tk" && videoID != "" {
+            lblSongName.text = "Closer"
+            lblArtistName.text = "Joshua Radin"
+        }
+
+        if videoID == "Hli_r5Bm97I" && videoID != "" {
+            lblSongName.text = "Broken Hands of Mine"
+            lblArtistName.text = "Joe Brooks"
+        }
+
+        if videoID == "XhSZGBmdFrQ" && videoID != "" {
+            lblSongName.text = "Simple Little Ballad"
+            lblArtistName.text = "Jesse Ruben"
+        }
+
+        if videoID == "wccRif2DaGs" && videoID != "" {
+            lblSongName.text = "Vienna"
+            lblArtistName.text = "Billy Joel"
+        }
+
+        if videoID == "BoLM0i5Nlvc" && videoID != "" {
+            lblSongName.text = "Golden Train"
+            lblArtistName.text = "Justin Nozuka"
+        }
+
+        if videoID == "AR8D2yqgQ1U" && videoID != "" {
+            lblSongName.text = "True"
+            lblArtistName.text = "Spandau Ballet"
+        }
+
+        if videoID == "A6Ovq52kaIw" && videoID != "" {
+            lblSongName.text = "Better Place"
+            lblArtistName.text = "Rachel Platten"
+        }
+
         if videoID == "" {
             lblSongName.text = ""
             lblArtistName.text = ""
