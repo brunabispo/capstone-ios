@@ -1,8 +1,8 @@
 //
-//  MusicPlayerController.swift
+//  MoodyMusicPlayerController.swift
 //  mind-manager-ios
 //
-//  Created by Fantastic Five on 25/03/21.
+//  Created by Fantastic Five on 29/03/21.
 //
 
 import UIKit
@@ -33,6 +33,46 @@ class MoodyMusicPlayerController: UIViewController, YTPlayerViewDelegate {
         if videoID == "osdoLjUNFnA" && videoID != "" {
             lblSongName.text = "Exile"
             lblArtistName.text = "Taylor Swift"
+        }
+
+        if videoID == "LwTg7TOf4M" && videoID != "" {
+            lblSongName.text = "I See You Everywhere"
+            lblArtistName.text = "Eric Chou"
+        }
+
+        if videoID == "6jJD_bXymR0" && videoID != "" {
+            lblSongName.text = "Trying My Best"
+            lblArtistName.text = "Anson Seabra"
+        }
+
+        if videoID == "KM38-goPJEU" && videoID != "" {
+            lblSongName.text = "Grow As We Go"
+            lblArtistName.text = "Ben Platt"
+        }
+
+        if videoID == "cL4uhaQ58Rk" && videoID != "" {
+            lblSongName.text = "Lost Stars"
+            lblArtistName.text = "Adam Levine"
+        }
+
+        if videoID == "Xpc8mAJ_2nM" && videoID != "" {
+            lblSongName.text = "When We Were Young"
+            lblArtistName.text = "Adele"
+        }
+
+        if videoID == "RB-RcX5DS5A" && videoID != "" {
+            lblSongName.text = "The Scientist"
+            lblArtistName.text = "Coldplay"
+        }
+
+        if videoID == "lbSOLBMUvIE" && videoID != "" {
+            lblSongName.text = "Home"
+            lblArtistName.text = "Michael Bublé"
+        }
+
+        if videoID == "mmHLkr6yK_4" && videoID != "" {
+            lblSongName.text = "Stick Around"
+            lblArtistName.text = "Lukas Graham"
         }
         
         if videoID == "" {
