@@ -35,6 +35,46 @@ class CalmerMusicPlayerController: UIViewController, YTPlayerViewDelegate {
             lblSongName.text = "Lost & Found"
             lblArtistName.text = "Mackenzie Bourg"
         }
+
+        if videoID == "0kP8ZdkJ88g" && videoID != "" {
+            lblSongName.text = "Warm Under the Light"
+            lblArtistName.text = "Justin Nozuka"
+        }
+
+        if videoID == "3eLittIRa8A" && videoID != "" {
+            lblSongName.text = "Those Nights"
+            lblArtistName.text = "Bastille"
+        }
+
+        if videoID == "ZGNt_UM5x-4" && videoID != "" {
+            lblSongName.text = "You Were Good to Me"
+            lblArtistName.text = "Jeremy Zucker & Chelsea Cutler"
+        }
+
+        if videoID == "bTRPWm9qndY" && videoID != "" {
+            lblSongName.text = "Highway 5"
+            lblArtistName.text = "UMAGAT"
+        }
+
+        if videoID == "VPRjCeoBqrI" && videoID != "" {
+            lblSongName.text = "A Sky Full Of Stars"
+            lblArtistName.text = "Coldplay"
+        }
+
+        if videoID == "cTUAxPDVxn8" && videoID != "" {
+            lblSongName.text = "Gentle Heart"
+            lblArtistName.text = "Joshua Hyslop"
+        }
+
+        if videoID == "n6BwAWiHcSg" && videoID != "" {
+            lblSongName.text = "All I Want"
+            lblArtistName.text = "Kodaline"
+        }
+
+        if videoID == "4FbjRsGRHU0" && videoID != "" {
+            lblSongName.text = "Falling Like The Stars"
+            lblArtistName.text = "James Arthur"
+        }
         
         if videoID == "" {
             lblSongName.text = ""
