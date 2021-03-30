@@ -1,8 +1,8 @@
 //
-//  MusicPlayerController.swift
+//  HappierMusicPlayerController.swift
 //  mind-manager-ios
 //
-//  Created by Fantastic Five on 25/03/21.
+//  Created by Fantastic Five on 29/03/21.
 //
 
 import UIKit
@@ -35,6 +35,46 @@ class HappierMusicPlayerController: UIViewController, YTPlayerViewDelegate {
         if videoID == "LSJKz9iAjgY" && videoID != "" {
             lblSongName.text = "Who's Laughing Now"
             lblArtistName.text = "Ava Max"
+        }
+
+        if videoID == "MGCkEl-6Hfg" && videoID != "" {
+            lblSongName.text = "Shut Up and Dance"
+            lblArtistName.text = "WALK THE MOON"
+        }
+
+        if videoID == "7-x3uD5z1bQ" && videoID != "" {
+            lblSongName.text = "Watermelon Sugar"
+            lblArtistName.text = "Harry Styles"
+        }
+
+        if videoID == "TUVcZfQe-Kw" && videoID != "" {
+            lblSongName.text = "Levitating"
+            lblArtistName.text = "Dua Lipa (feat. DaBaby)"
+        }
+
+        if videoID == "RgcZ1PARll8" && videoID != "" {
+            lblSongName.text = "A Few Good Stories"
+            lblArtistName.text = "Brett Kissel and Walk Off The Earth"
+        }
+
+        if videoID == "uezMm49xZtE" && videoID != "" {
+            lblSongName.text = "50 Ways to Say Goodbye"
+            lblArtistName.text = "Train"
+        }
+
+        if videoID == "PKB4cioGs98" && videoID != "" {
+            lblSongName.text = "You Don't Know Me"
+            lblArtistName.text = "Jax Jones (ft. RAYE)"
+        }
+
+        if videoID == "dvgZkm1xWPE" && videoID != "" {
+            lblSongName.text = "Viva La Vida"
+            lblArtistName.text = "Coldplay"
+        }
+
+        if videoID == "ehZECQUvMhE" && videoID != "" {
+            lblSongName.text = "Down"
+            lblArtistName.text = "Jay Sean (ft. Lil Wayne)"
         }
         
         if videoID == "" {
