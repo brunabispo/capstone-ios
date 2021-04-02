@@ -14,9 +14,13 @@ class EnergeticMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var imagePoster: UIImageView!
     
+    @IBOutlet var playerView: YTPlayerView!
+    
     let energeticSuggestions = EnergeticSuggestionsController()
     
-    @IBOutlet var playerView: YTPlayerView!
+    @IBAction func btnRandom(_ sender: Any) {
+        viewDidLoad().self
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

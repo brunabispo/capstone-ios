@@ -14,9 +14,12 @@ class CalmerSuggestionsController: UIViewController{
     }
     
     @IBAction func btnRandom(_ sender: Any) {
-        
+        viewDidLoad().self
     }
-
+    
+    @IBOutlet weak var btnMusic: UIButton!
+    
+    @IBOutlet weak var btnMovie: UIButton!
     
     @IBOutlet weak var lblReading: UILabel!
     
@@ -41,5 +44,6 @@ class CalmerSuggestionsController: UIViewController{
         
         lblReading?.text = calmerReading.randomElement()
         lblSport?.text = calmerSport.randomElement()
+        
     }
 }

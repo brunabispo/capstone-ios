@@ -24,7 +24,7 @@ class EnergeticGameController: UIViewController {
     @IBOutlet weak var lblWordsFound: UILabel!
     
     @IBOutlet weak var tapCheck: UIButton!
-    
+     
     
     var counter = 4
     var foundArray: [String] = []

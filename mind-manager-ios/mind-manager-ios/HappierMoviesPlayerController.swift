@@ -18,6 +18,10 @@ class HappierMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet var playerView: YTPlayerView!
     
+    @IBAction func btnRandom(_ sender: Any) {
+        viewDidLoad().self
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

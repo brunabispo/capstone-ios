@@ -18,6 +18,10 @@ class CalmerMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet var playerView: YTPlayerView!
     
+    @IBAction func btnRandom(_ sender: Any) {
+        viewDidLoad().self
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         playerView.delegate = self
@@ -77,6 +81,7 @@ class CalmerMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
         if videoID == "" {
             lblMovieTitle.text = ""
         }
+        
     }
     
     func playerViewDidBecomeReady(_ playerView: YTPlayerView) {

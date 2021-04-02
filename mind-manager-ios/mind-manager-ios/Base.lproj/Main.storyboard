@@ -521,6 +521,12 @@
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="btnMovie" destination="TMV-AH-E2z" id="bNa-Ge-slD"/>
+                        <outlet property="btnMusic" destination="09c-8Y-ngg" id="v3H-ub-eQV"/>
+                        <outlet property="lblReading" destination="h7f-zZ-6Pd" id="fvc-t8-Lvk"/>
+                        <outlet property="lblSport" destination="8DH-ac-bne" id="XX2-sW-XqK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FsN-DX-fUn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -582,7 +588,13 @@
                             <constraint firstItem="eML-n9-ONo" firstAttribute="trailing" secondItem="cFn-xT-HsV" secondAttribute="trailing" id="rMV-28-4ZT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="FR5-mg-ItR"/>
+                    <navigationItem key="navigationItem" id="FR5-mg-ItR">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="UcH-4e-ArQ">
+                            <connections>
+                                <action selector="btnRandom:" destination="tNM-Cd-qfG" id="DeE-b8-Rka"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblArtistName" destination="VmI-0j-9kW" id="jpa-SJ-ldP"/>
                         <outlet property="lblSongName" destination="g5u-D4-aXF" id="Rwc-vO-w4C"/>
@@ -705,8 +717,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yw2-zk-SpZ">
-                                <rect key="frame" x="20" y="470" width="374" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yw2-zk-SpZ">
+                                <rect key="frame" x="20" y="470" width="374" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -732,7 +744,13 @@
                             <constraint firstItem="0Rx-58-Vf3" firstAttribute="leading" secondItem="fYX-Ty-HQc" secondAttribute="leading" id="zP6-jl-dyy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Lma-4n-Csi"/>
+                    <navigationItem key="navigationItem" id="Lma-4n-Csi">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="qK6-aP-EfQ">
+                            <connections>
+                                <action selector="btnRandom:" destination="Dsn-zm-m3m" id="0Zt-z0-LVk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imagePoster" destination="WGr-md-nar" id="ZwU-M9-fg6"/>
                         <outlet property="lblMovieTitle" destination="yw2-zk-SpZ" id="Omv-iK-sTD"/>
@@ -911,6 +929,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnMovie" destination="5Ll-KN-xrF" id="PTs-7x-wHu"/>
+                        <outlet property="btnMusic" destination="0zJ-SM-0MM" id="pCv-1x-0i3"/>
                         <outlet property="lblReading" destination="2DO-Xi-ar2" id="cfE-5Y-hqI"/>
                         <outlet property="lblSport" destination="xUC-DK-563" id="MwQ-YL-ifN"/>
                     </connections>
@@ -1068,7 +1088,13 @@
                             <constraint firstItem="ODY-4n-wTP" firstAttribute="leading" secondItem="apU-7S-oGi" secondAttribute="leading" id="xBU-LX-mQZ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="y5p-35-fld"/>
+                    <navigationItem key="navigationItem" id="y5p-35-fld">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="RcX-jV-xTe">
+                            <connections>
+                                <action selector="btnRandom:" destination="izi-cP-bUb" id="5bk-SI-NHc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblArtistName" destination="KtW-8C-lDb" id="rKx-Kh-q6h"/>
                         <outlet property="lblSongName" destination="VZD-zY-gfx" id="1FT-zm-vTn"/>
@@ -1247,6 +1273,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnMovie" destination="X0c-c8-VCO" id="7O5-zr-0Gv"/>
+                        <outlet property="btnMusic" destination="G9i-oK-bMz" id="VSe-g4-jN7"/>
                         <outlet property="lblReading" destination="wlL-SK-wqS" id="WBy-ds-PMl"/>
                         <outlet property="lblSport" destination="BXx-mq-3z1" id="gO0-Jx-rbR"/>
                     </connections>
@@ -1423,6 +1451,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnMovie" destination="G1w-oI-E6V" id="e3C-4V-evQ"/>
+                        <outlet property="btnMusic" destination="4te-vy-a4w" id="nGb-Wt-LdU"/>
                         <outlet property="lblReading" destination="swY-lw-7Cj" id="gT2-jo-y0X"/>
                         <outlet property="lblSport" destination="DQR-9Z-W4a" id="82y-J4-djG"/>
                     </connections>
@@ -1536,8 +1566,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y63-jc-TqK">
-                                <rect key="frame" x="20" y="470" width="374" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y63-jc-TqK">
+                                <rect key="frame" x="20" y="470" width="374" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -1563,7 +1593,13 @@
                             <constraint firstItem="dOn-j2-6ZD" firstAttribute="trailing" secondItem="nLG-6Q-17g" secondAttribute="trailing" id="NB9-rq-qyv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Zob-42-Yab"/>
+                    <navigationItem key="navigationItem" id="Zob-42-Yab">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="EoH-GP-CDe">
+                            <connections>
+                                <action selector="btnRandom:" destination="nfo-xW-5kA" id="BIC-cl-nYt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imagePoster" destination="zsU-ax-uzp" id="7Fb-1U-bBP"/>
                         <outlet property="lblMovieTitle" destination="Y63-jc-TqK" id="pG6-Ut-n0a"/>
@@ -1630,7 +1666,13 @@
                             <constraint firstItem="1LQ-Us-wyv" firstAttribute="top" secondItem="5bR-4X-t1B" secondAttribute="top" id="ohR-Ft-63X"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="pMO-v4-xIP"/>
+                    <navigationItem key="navigationItem" id="pMO-v4-xIP">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="cKg-iL-gep">
+                            <connections>
+                                <action selector="btnRandom:" destination="txs-1F-u5a" id="d6p-AE-fk5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblArtistName" destination="ZmW-O5-q7y" id="Pnb-fO-POv"/>
                         <outlet property="lblSongName" destination="Yzu-Mp-SL0" id="mgC-5i-7qn"/>
@@ -1660,17 +1702,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzK-E3-vmu">
-                                <rect key="frame" x="20" y="470" width="374" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzK-E3-vmu">
+                                <rect key="frame" x="20" y="470" width="374" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="61c-iB-sXH">
-                                <rect key="frame" x="87" y="550" width="240" height="312"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mfp-Oa-quM" customClass="YTPlayerView">
                                 <rect key="frame" x="0.0" y="88" width="414" height="300"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1678,6 +1716,10 @@
                                     <constraint firstAttribute="height" constant="300" id="bdh-RQ-T9b"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="boL-v6-eWE">
+                                <rect key="frame" x="87" y="550" width="240" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hm9-ve-AnH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1687,9 +1729,15 @@
                             <constraint firstItem="Mfp-Oa-quM" firstAttribute="leading" secondItem="hm9-ve-AnH" secondAttribute="leading" id="pKg-Q8-lIC"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="g10-qn-khf"/>
+                    <navigationItem key="navigationItem" id="g10-qn-khf">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="SxI-fA-5La">
+                            <connections>
+                                <action selector="btnRandom:" destination="pMe-QT-OcQ" id="Z62-df-SKT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="imagePoster" destination="61c-iB-sXH" id="M3s-GG-5GB"/>
+                        <outlet property="imagePoster" destination="boL-v6-eWE" id="uAD-at-Hmv"/>
                         <outlet property="lblMovieTitle" destination="WzK-E3-vmu" id="P2X-Io-uyR"/>
                         <outlet property="playerView" destination="Mfp-Oa-quM" id="yke-Ph-XH3"/>
                     </connections>
@@ -1952,6 +2000,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnMovie" destination="o5s-Mf-69Z" id="W1h-Ok-Ng3"/>
+                        <outlet property="btnMusic" destination="OaR-Z6-irR" id="i8A-7F-oGq"/>
                         <outlet property="lblReading" destination="740-tJ-kiJ" id="mjk-qc-hhb"/>
                         <outlet property="lblSport" destination="9Yj-at-bQt" id="mno-ds-ZmV"/>
                     </connections>
@@ -2065,8 +2115,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f2-ja-Ck8">
-                                <rect key="frame" x="20" y="470" width="374" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f2-ja-Ck8">
+                                <rect key="frame" x="20" y="470" width="374" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -2092,7 +2142,13 @@
                             <constraint firstItem="0SB-dJ-Hod" firstAttribute="top" secondItem="R92-fi-FPo" secondAttribute="top" id="vH9-s4-Xgr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="sW1-1y-HoC"/>
+                    <navigationItem key="navigationItem" id="sW1-1y-HoC">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="S5h-mz-nj5">
+                            <connections>
+                                <action selector="btnRandom:" destination="MMz-23-gTL" id="uaI-FU-uJq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imagePoster" destination="v1e-Ra-jOz" id="x7E-uS-CJA"/>
                         <outlet property="lblMovieTitle" destination="8f2-ja-Ck8" id="yr0-Fi-FFY"/>
@@ -2101,7 +2157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1TR-Tm-EWu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7186" y="785"/>
+            <point key="canvasLocation" x="7185.507246376812" y="784.82142857142856"/>
         </scene>
         <!--Calmer Music Player Controller-->
         <scene sceneID="ukO-2O-mr6">
@@ -2159,7 +2215,13 @@
                             <constraint firstItem="uO1-zq-nGL" firstAttribute="trailing" secondItem="mWW-my-a7c" secondAttribute="trailing" id="wkK-Gb-1hy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Fdn-ay-7gV"/>
+                    <navigationItem key="navigationItem" id="Fdn-ay-7gV">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="OtD-LC-qDQ">
+                            <connections>
+                                <action selector="btnRandom:" destination="aDL-SO-cfR" id="RDQ-Wz-c6Y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblArtistName" destination="aeN-fN-75K" id="lDa-Db-rbK"/>
                         <outlet property="lblSongName" destination="uxe-kW-vDR" id="Hip-GS-2Ct"/>
@@ -2226,7 +2288,13 @@
                             <constraint firstItem="ivi-Ol-E3B" firstAttribute="leading" secondItem="PHV-3n-cWo" secondAttribute="leading" id="Tpm-jE-Bdw"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="RpT-eI-bKY"/>
+                    <navigationItem key="navigationItem" id="RpT-eI-bKY">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="cdI-Sb-YHN">
+                            <connections>
+                                <action selector="btnRandom:" destination="QWx-Rv-2xv" id="77d-Ax-Zos"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="lblArtistName" destination="ttU-IL-AYO" id="nLz-ze-wyA"/>
                         <outlet property="lblSongName" destination="RgZ-Gq-S0z" id="Knp-gG-0vk"/>
@@ -2256,8 +2324,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7H-Su-ACL">
-                                <rect key="frame" x="20" y="470" width="374" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Movie Ttile " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7H-Su-ACL">
+                                <rect key="frame" x="20" y="470" width="374" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -2283,7 +2351,13 @@
                             <constraint firstItem="Ivx-AF-Hbt" firstAttribute="trailing" secondItem="gaB-aj-P5T" secondAttribute="trailing" id="bv0-kY-ZOJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="HIe-bq-bw4"/>
+                    <navigationItem key="navigationItem" id="HIe-bq-bw4">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="OWh-3d-2pC">
+                            <connections>
+                                <action selector="btnRandom:" destination="NFN-pU-K9s" id="1Yy-bB-e7V"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="imagePoster" destination="K9Z-PQ-dkC" id="3QV-wA-F6S"/>
                         <outlet property="lblMovieTitle" destination="i7H-Su-ACL" id="Tv0-3y-p2E"/>
@@ -2856,9 +2930,9 @@ Analyst</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nVQ-Wk-cXn"/>
+        <segue reference="rIE-Vb-K2M"/>
         <segue reference="4rY-Gn-P0P"/>
-        <segue reference="9l1-eS-lpo"/>
+        <segue reference="pKa-bb-J8u"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="720" height="1280"/>
