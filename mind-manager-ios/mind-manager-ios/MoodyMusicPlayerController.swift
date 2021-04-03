@@ -39,7 +39,7 @@ class MoodyMusicPlayerController: UIViewController, YTPlayerViewDelegate {
             lblArtistName.text = "Taylor Swift"
         }
 
-        if videoID == "LwTg7TOf4M" && videoID != "" {
+        if videoID == "dacKE1QVJtU" && videoID != "" {
             lblSongName.text = "I See You Everywhere"
             lblArtistName.text = "Eric Chou"
         }

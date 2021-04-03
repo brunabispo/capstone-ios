@@ -2930,13 +2930,13 @@ Analyst</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rIE-Vb-K2M"/>
+        <segue reference="K4H-Ag-jVt"/>
         <segue reference="4rY-Gn-P0P"/>
-        <segue reference="pKa-bb-J8u"/>
+        <segue reference="k6k-TO-O4Q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="720" height="1280"/>
-        <image name="crossword_moody" width="206.5" height="136"/>
+        <image name="crossword_moody" width="205.5" height="135.5"/>
         <image name="filter" width="170.5" height="170.5"/>
         <image name="game" width="137" height="136"/>
         <image name="gbc" width="400" height="258"/>

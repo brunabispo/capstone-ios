@@ -30,7 +30,7 @@ class MoodySuggestionsController: UIViewController{
     // Hard-coding suggestions
     
     // Moody
-    var moodyMusic = ["TdrL3QxjyVw", "osdoLjUNFnA", "LwTg7TOf4M", "6jJD_bXymR0", "KM38-goPJEU", "cL4uhaQ58Rk", "Xpc8mAJ_2nM", "RB-RcX5DS5A", "lbSOLBMUvIE", "mmHLkr6yK_4"]
+    var moodyMusic = ["TdrL3QxjyVw", "osdoLjUNFnA", "dacKE1QVJtU", "6jJD_bXymR0", "KM38-goPJEU", "cL4uhaQ58Rk", "Xpc8mAJ_2nM", "RB-RcX5DS5A", "lbSOLBMUvIE", "mmHLkr6yK_4"]
     // ["Summertime Sadness - Lana Del Rey", "Exile - Taylor Swift", "I See You Everywhere - Eric Chou", "Trying My Best - Anson Seabra", "Grow As We Go - Ben Platt", "Lost Stars - Adam Levine", "When We Were Young - Adele", "The Scientist - Coldplay", "Home - Michael Bublé", "Stick Around - Lukas Graham"]
 
     var moodySport = ["Walk in Park", "Swimming"]
