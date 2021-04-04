@@ -18,12 +18,12 @@ class LoginController: UIViewController {
     
     @IBOutlet weak var inputPassword: UITextField!
     
-//    @IBAction func btnSubmitLogin(_ sender: Any) {
-//
+    @IBAction func btnSubmitLogin(_ sender: Any) {
+
 //        if inputUsername.text == "benJeff" && inputPassword.text == "ben_123" {
 //            welcomeController.lblLogin!.title = "Logout"
 //        }
-//    }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

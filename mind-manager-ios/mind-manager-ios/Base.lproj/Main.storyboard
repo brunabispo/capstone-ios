@@ -217,6 +217,7 @@
                                 <connections>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ye7-aj-Mcg"/>
                                     <action selector="btnSubmitLogin:" destination="qbt-ci-kAI" eventType="touchUpInside" id="KwH-dR-07P"/>
+                                    <segue destination="8p7-ds-lPb" kind="show" id="pps-tF-131"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you do not have an account yet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSn-bG-Nsp">
@@ -2682,6 +2683,7 @@ Analyst</string>
                                 </state>
                                 <connections>
                                     <action selector="btnMoody:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6QB-L3-iWr"/>
+                                    <segue destination="Kff-DG-UWw" kind="show" id="avx-MB-P8D"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nst-ZT-feI">
@@ -2694,6 +2696,7 @@ Analyst</string>
                                 </state>
                                 <connections>
                                     <action selector="btnHappier:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXv-jA-PGp"/>
+                                    <segue destination="San-MK-Bii" kind="show" id="Fl6-nR-heP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4k2-GT-Ctc">
@@ -2706,6 +2709,7 @@ Analyst</string>
                                 </state>
                                 <connections>
                                     <action selector="btnEnergetic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o1I-ch-Adq"/>
+                                    <segue destination="6rE-41-WaO" kind="show" id="c3w-bo-mnV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqU-Qv-HMh">
@@ -2724,23 +2728,20 @@ Analyst</string>
                         <viewLayoutGuide key="safeArea" id="Yn1-9L-EVX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="q29-OI-Qpx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rl0-8p-DTs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1500" y="-1436"/>
         </scene>
-        <!--View Controller-->
+        <!--Admin Question Controller-->
         <scene sceneID="Lb8-cU-NM6">
             <objects>
-                <viewController id="San-MK-Bii" sceneMemberID="viewController">
+                <viewController id="San-MK-Bii" customClass="AdminQuestionController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jkG-e7-G3b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Fl0-iO-Ryy">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mind Manager App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7R-C3-xvn">
                                 <rect key="frame" x="19" y="44" width="374" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2767,20 +2768,42 @@ Analyst</string>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dbw-Ed-s5L"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vnN-wJ-dO3">
+                                <rect key="frame" x="0.0" y="161" width="414" height="600"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicCell" id="riw-0c-WQL">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="riw-0c-WQL" id="blw-Fg-t7b">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Fl0-iO-Ryy">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gM6-Tb-kCD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="PZP-hG-HBb"/>
+                    <connections>
+                        <outlet property="list" destination="vnN-wJ-dO3" id="omA-9M-cfP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nCe-2J-IRK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562" y="-1436"/>
+            <point key="canvasLocation" x="-597.10144927536237" y="-1436.3839285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Admin Suggestion Controller-->
         <scene sceneID="QFK-bQ-d01">
             <objects>
-                <viewController id="6rE-41-WaO" sceneMemberID="viewController">
+                <viewController id="6rE-41-WaO" customClass="AdminSuggestionController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fpm-TW-lt2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2803,7 +2826,7 @@ Analyst</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3i-CH-9Tj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3i-CH-9Tj" userLabel="Add New Category">
                                 <rect key="frame" x="18" y="799" width="378" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
@@ -2815,20 +2838,38 @@ Analyst</string>
                                     <action selector="btnRelaxed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UM6-kt-afE"/>
                                 </connections>
                             </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="REV-Fq-rj1">
+                                <rect key="frame" x="0.0" y="159" width="414" height="596"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicCell" id="npm-1V-tOd">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="npm-1V-tOd" id="HsQ-jk-ffz">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JcJ-WK-B4Z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="A9n-Ak-a5v"/>
+                    <connections>
+                        <outlet property="list" destination="REV-Fq-rj1" id="Tp0-Wn-1Oa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zLD-pv-3O7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-562" y="-713"/>
+            <point key="canvasLocation" x="-562.31884057971024" y="-713.16964285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Admin User Controller-->
         <scene sceneID="IJw-0o-p2x">
             <objects>
-                <viewController id="Kff-DG-UWw" sceneMemberID="viewController">
+                <viewController id="Kff-DG-UWw" customClass="AdminUserController" customModule="mind_manager_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xSs-eV-TX5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2902,15 +2943,33 @@ Analyst</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7Ze-U1-5MF">
+                                <rect key="frame" x="0.0" y="144" width="425" height="382"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BasicCell" id="wt7-zh-8R9">
+                                        <rect key="frame" x="0.0" y="28" width="425" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wt7-zh-8R9" id="CKV-sq-dQi">
+                                            <rect key="frame" x="0.0" y="0.0" width="425" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lkQ-Pi-sWA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="duf-dd-EXo"/>
+                    <connections>
+                        <outlet property="list" destination="7Ze-U1-5MF" id="0tT-ua-IfW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QMk-cP-JsN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-597" y="-2257"/>
+            <point key="canvasLocation" x="-597.10144927536237" y="-2257.3660714285711"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XsT-Us-Zfi">
