@@ -39,8 +39,7 @@ class MoodySuggestionsController: UIViewController{
     var moodyReading = ["The Young Widower's Handbook", "The Extraordinary Life of Sam Hell", "To Kill A Mockingbird", "The Kite Runner", "The Giver of Stars", "The Boy in the Striped Pyjamas", "Room", "The Glass Castle", "Wonder", "The Fault in Our Starts"]
 
     var moodyMovie = ["xOsLIiBStEs", "yRUAzGQ3nSY", "lFzVJEksoDY", "bdNiNhSeSDk", "MzgOvvMi8Lg", "Ob7fPOzbmzE", "RNI9o06vqo", "QtdVWsA3ctI", "qYAETtIIClk", "DMOBlEcRuw8"]
-    
-    var moodyMovieTitle = ["Soul", "Inside Out", "The Lion King", "The Glass Castle", "Charlie St. Cloud", "Wonder", "Lion", "Miss You Already", "E.T., the Extra-Terrestrial", "The Pursuit of Happyness"]
+//    ["Soul", "Inside Out", "The Lion King", "The Glass Castle", "Charlie St. Cloud", "Wonder", "Lion", "Miss You Already", "E.T., the Extra-Terrestrial", "The Pursuit of Happyness"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

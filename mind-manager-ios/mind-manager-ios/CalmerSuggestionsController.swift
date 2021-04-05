@@ -34,7 +34,7 @@ class CalmerSuggestionsController: UIViewController{
 
     var calmerSport = ["Yoga", "Swimming", "Golfing", "Hiking"]
 
-    var calmerReading = ["The Things You Can See Only When You Slow Down", "Consolations of the Forest", "Collected Poems", "How to Love", "A Thousand Mornings", "Brave Enough", "Little Women", "Goodbye, Things", "Wind, Sand and Stars", "The Curious Incident of the Dog in the Night"]
+    var calmerReading = ["The Things You Can See Only When You Slow Down", "Consolations of the Forest", "Collected Poems", "How to Love", "A Thousand Mornings", "Brave Enough", "Little Women", "Goodbye, Things", "Wind, Sand and Stars", "The Curious Incident of the Dog in the Night-Time"]
 
     var calmerMovie = ["pvQZfLavWfU", "oR_e9y-bka0", "PsD0NpFSADM", "2ZMGk_Ml1fc", "3_DHhPckJNo", "PaZVjZEFkRs", "mjay5vgIwt4", "PMAhVpgzmRU", "TbQm5doF_Uc", "yE-f1alkq9I"]
     // ["The Tree of Life", "2001: A Space Odyssey", "500 Days of Summer", "How to Lose a Guy in 10 Days", "He’s Just Not That Into You", "Good Will Hunting", "Eat Pray Love", "The Parent Trap", "Frozen", "Eternal Sunshine of the Spotless Mind"]
