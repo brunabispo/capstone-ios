@@ -44,20 +44,14 @@ class WelcomeController: UIViewController{
 
     }
     
-    @IBOutlet weak var lblLogin: UIBarButtonItem!
-    
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "moreMoody" ||
-            segue.identifier == "happier" ||
-            segue.identifier == "moreEnergetic" ||
-            segue.identifier == "calmer" ||
-            segue.identifier == "moreRelaxed"
-        {
-            
-            
-        }
+    @IBAction func btnLogin(_ sender: Any) {
+        performSegue(withIdentifier: "goToAdmin", sender: self)
     }
+    
+    @IBAction func unwind( _ seg: UIStoryboardSegue) {
+        
+    }
+    
 }
 
 
