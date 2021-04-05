@@ -26,6 +26,7 @@ class MoodyMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
         super.viewDidLoad()
         playerView.delegate = self
         let videoID = moodySuggestions.moodyMovie.randomElement() ?? ""
+    
         playerView.load(withVideoId: videoID, playerVars: ["playsinline": 1])
         
         if videoID == "xOsLIiBStEs" && videoID != "" {
@@ -86,4 +87,5 @@ class MoodyMoviesPlayerController: UIViewController, YTPlayerViewDelegate {
     func playerViewDidBecomeReady(_ playerView: YTPlayerView) {
         playerView.playVideo()
     }
+    
 }

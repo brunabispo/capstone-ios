@@ -32,7 +32,7 @@ class HappierSuggestionsController: UIViewController{
 
     var happierSport = ["Paint-Ball", "Laser Tag", "Running"]
 
-    var happierReading = ["The Help", "Lolita", "Notes From A Small Island", "Anne Of Green Gables", "The Art of Racing in the Rain", "Moby-Dick", "A Man Called Ove", "Where'd You Go Bernadette", "The Rosie Project", "Diary of a Wimpy Kid"]
+    var happierReading = ["The Help", "Lolita", "Notes From A Small Island", "Anne Of Green Gables", "The Art of Racing in the Rain", "Moby-Dick", "A Man Called Ove", "Where'd You Go Bernadette", "The Rosie Project", "Diary of a Wimpy Kid - Book 1"]
 
     var happierMovie = ["uPIEn0M8su0","5UrCaXLBN30", "Z2lYA7L7PZY", "qDKo8DNpwOw", "e01NVCveGkg", "7mPdQRXFiPA", "qvsgGtivCgs", "6ZOZwUQKu3E", 	"Mgjwq1ZzdPQ","BSXBvor47Zs"]
     // ["Forrest Gump", "13 Going on 30", "The Proposal", "Grease", "Grown Ups", "Surf's Up", "Back to the Future", "The Devil Wears Prada", "Clueless", "The Breakfast Club"]
