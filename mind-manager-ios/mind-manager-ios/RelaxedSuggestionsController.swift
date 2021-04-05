@@ -37,7 +37,7 @@ class RelaxedSuggestionsController: UIViewController{
 
     var relaxedSport = ["Yoga", "Biking"]
 
-    var relaxedReading = ["The Adventures of Tom Sawyer", "The Little Book of Mindfulness", "The Art of Thinking Clearly", "The Girl on the Train", "How the Penguins Saved Veronica", "The Snow Child", "Why Not Me?", "Fantastic Mr Fox", "The Little Prince", "The Little Prince"]
+    var relaxedReading = ["The Adventures of Tom Sawyer", "The Little Book of Mindfulness", "The Art of Thinking Clearly", "The Girl on the Train", "How the Penguins Saved Veronica", "The Snow Child", "Why Not Me?", "Fantastic Mr Fox", "The Little Prince", "Attachments"]
 
     var relaxedMovie = ["FF_rYNupPwg", "BSXn-lIs4Y0", "oKNy-MWjkcU", "fq5zU9T_Hl4", "n5rh7O4IDc0", "iRVk0dgOOOQ", "K-X2XzKqBiE", "ZU3Xban0Y6A", "1dYv5u6v55Y", "imm6OR605UI"]
     // ["Chef", "The Fundamentals of Caring", "Space Jam", "Madagascar", "The Perks of Being a Wallflower", "Spirit", "Ferris Bueller’s Day Off", "The Intern", "Pride and Prejudice", "Ocean’s Eleven"]

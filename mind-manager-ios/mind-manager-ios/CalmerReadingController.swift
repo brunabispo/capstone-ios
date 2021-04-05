@@ -25,9 +25,6 @@ class CalmerReadingController: UIViewController{
         viewDidLoad().self
     }
     
-    var calmerReading = ["The Things You Can See Only When You Slow Down", "Consolations of the Forest", "Collected Poems", "How to Love", "A Thousand Mornings", "Brave Enough", "Little Women", "Goodbye, Things", "Wind, Sand and Stars", "The Curious Incident of the Dog in the Night"]
-    
-    
     override func viewDidLoad() {
         lblBookTitle?.text = calmerSuggestion.calmerReading.randomElement()
         

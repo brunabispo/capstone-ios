@@ -171,6 +171,7 @@
 		ABA471B025F29D7C0086E8DA /* mind-manager-ios */ = {
 			isa = PBXGroup;
 			children = (
+				AB34EA15261BBEB000514D56 /* AdminMainController.swift */,
 				AB89CFE7261A2CD50003E798 /* AdminQuestionController.swift */,
 				AB89CFE4261A2CBC0003E798 /* AdminSuggestionController.swift */,
 				AB89CFDF261A24230003E798 /* AdminUserController.swift */,
@@ -194,7 +195,6 @@
 				ABA471C225F29D7F0086E8DA /* Info.plist */,
 				ABA471BF25F29D7F0086E8DA /* LaunchScreen.storyboard */,
 				AB1A057B260BEA7100BB7300 /* LoginController.swift */,
-				AB34EA15261BBEB000514D56 /* AdminMainController.swift */,
 				ABA471B725F29D7C0086E8DA /* Main.storyboard */,
 				ABA471BA25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld */,
 				AB89CFC4261A20C30003E798 /* Model */,
