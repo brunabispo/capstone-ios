@@ -53,7 +53,6 @@
 		ABDD00B9260C03D7006C18C0 /* MoodySuggestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */; };
 		ABF282C12603CD0B007DEF0D /* QuestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C02603CD0B007DEF0D /* QuestionsController.swift */; };
 		ABF282C42603CD88007DEF0D /* MoodyGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282C32603CD88007DEF0D /* MoodyGameController.swift */; };
-		ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF282CC2603E080007DEF0D /* RegistrationController.swift */; };
 		ABF34533260D639100832962 /* MoodyMusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */; };
 		D6C9BC0919579AA6FF30481F /* Pods_mind_manager_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0A877A4568E9C5F16E2D9F /* Pods_mind_manager_ios.framework */; };
 /* End PBXBuildFile section */
@@ -109,7 +108,6 @@
 		ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodySuggestionsController.swift; sourceTree = "<group>"; };
 		ABF282C02603CD0B007DEF0D /* QuestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsController.swift; sourceTree = "<group>"; };
 		ABF282C32603CD88007DEF0D /* MoodyGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyGameController.swift; sourceTree = "<group>"; };
-		ABF282CC2603E080007DEF0D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		ABF34532260D639100832962 /* MoodyMusicPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyMusicPlayerController.swift; sourceTree = "<group>"; };
 		D1E8ACBCDEA6B4AD011B38D4 /* Pods-mind-manager-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mind-manager-ios.debug.xcconfig"; path = "Target Support Files/Pods-mind-manager-ios/Pods-mind-manager-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,7 +202,6 @@
 				AB34EA05261B5E1800514D56 /* MoodyReadingController.swift */,
 				ABDD00B8260C03D7006C18C0 /* MoodySuggestionsController.swift */,
 				ABF282C02603CD0B007DEF0D /* QuestionsController.swift */,
-				ABF282CC2603E080007DEF0D /* RegistrationController.swift */,
 				AB06C4F526127D5D009F011E /* RelaxedGameController.swift */,
 				AB06C4FB26127F11009F011E /* RelaxedMoviesPlayerController.swift */,
 				AB06C4F826127E38009F011E /* RelaxedMusicPlayerController.swift */,
@@ -371,7 +368,6 @@
 				AB34EA16261BBEB000514D56 /* AdminMainController.swift in Sources */,
 				AB06C4D626126B8E009F011E /* EnergeticSuggestionsController.swift in Sources */,
 				ABA471B225F29D7C0086E8DA /* AppDelegate.swift in Sources */,
-				ABF282CD2603E080007DEF0D /* RegistrationController.swift in Sources */,
 				AB89CFD3261A22100003E798 /* QuestionModel.swift in Sources */,
 				AB06C4CD26126147009F011E /* HappierSuggestionsController.swift in Sources */,
 				AB06C4D02612640F009F011E /* HappierMusicPlayerController.swift in Sources */,

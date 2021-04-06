@@ -145,6 +145,13 @@
                                     <segue destination="X2y-Ha-m0U" kind="show" identifier="menuAbout" id="hME-Nf-KWM"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem title="Info" id="k86-7g-AQS">
+                                <connections>
+                                    <segue destination="pM2-mW-f83" kind="popoverPresentation" popoverAnchorBarButtonItem="k86-7g-AQS" id="aFq-hP-hSl">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
@@ -516,6 +523,13 @@
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <connections>
                                     <segue destination="X2y-Ha-m0U" kind="show" id="ZQU-DZ-QCM"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Info" id="nEs-Us-Kxn">
+                                <connections>
+                                    <segue destination="pM2-mW-f83" kind="popoverPresentation" popoverAnchorBarButtonItem="nEs-Us-Kxn" id="wxA-Pm-Gpg">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -935,6 +949,13 @@
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <connections>
                                     <segue destination="X2y-Ha-m0U" kind="show" id="K4H-Ag-jVt"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Info" id="Vdc-bU-5dA">
+                                <connections>
+                                    <segue destination="pM2-mW-f83" kind="popoverPresentation" popoverAnchorBarButtonItem="Vdc-bU-5dA" id="JLM-4z-SiA">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -1394,6 +1415,13 @@
                                     <segue destination="X2y-Ha-m0U" kind="show" id="rIE-Vb-K2M"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem title="Info" id="qGO-0W-2Cx">
+                                <connections>
+                                    <segue destination="pM2-mW-f83" kind="popoverPresentation" popoverAnchorBarButtonItem="qGO-0W-2Cx" id="Zm7-iX-9PV">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
@@ -1581,6 +1609,13 @@
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <connections>
                                     <segue destination="X2y-Ha-m0U" kind="show" id="nVQ-Wk-cXn"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Info" id="7fq-0a-3PG">
+                                <connections>
+                                    <segue destination="pM2-mW-f83" kind="popoverPresentation" popoverAnchorBarButtonItem="7fq-0a-3PG" id="X8b-ws-cDE">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -2243,6 +2278,13 @@
                                 <color key="tintColor" systemColor="linkColor"/>
                                 <connections>
                                     <segue destination="X2y-Ha-m0U" kind="show" id="J3q-It-GgT"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Info" id="SkP-DF-FcE">
+                                <connections>
+                                    <segue destination="pM2-mW-f83" kind="popoverPresentation" popoverAnchorBarButtonItem="SkP-DF-FcE" id="n5l-DK-ALn">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -2911,11 +2953,63 @@ Analyst</string>
                         <viewLayoutGuide key="safeArea" id="pBN-YJ-BFT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tRK-tX-efS"/>
+                    <navigationItem key="navigationItem" id="tRK-tX-efS">
+                        <barButtonItem key="rightBarButtonItem" title="Info" id="F23-uc-FjE">
+                            <connections>
+                                <segue destination="pM2-mW-f83" kind="popoverPresentation" popoverAnchorBarButtonItem="F23-uc-FjE" id="Lti-PF-If6">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dG3-lr-bmk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="455" y="1690"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EE1-rq-AOV">
+            <objects>
+                <viewController id="pM2-mW-f83" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fsX-n0-gTY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="MBt-F8-hOi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mind Manager App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llj-2e-Z5e">
+                                <rect key="frame" x="20" y="88" width="374" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.1128918007" green="0.1932297647" blue="0.71324270960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disclaimer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bd8-6t-vaZ">
+                                <rect key="frame" x="20" y="164" width="374" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNV-jE-yxf">
+                                <rect key="frame" x="20" y="248" width="374" height="401"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">This app is meant to be for pure recreational purposes, in finding daily activities based on mood selections.   The app is not intended to be a replacement for professional mental health services or medications. If you are in need of those services, please seek professional assistance.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="saN-IB-ARK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gmP-lU-4Wu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VBC-WZ-YI6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1705.7971014492755" y="1689.5089285714284"/>
         </scene>
         <!--Questions Controller-->
         <scene sceneID="TLD-gp-L3p">
@@ -3469,8 +3563,9 @@ Analyst</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="96v-To-zQy"/>
-        <segue reference="rIE-Vb-K2M"/>
+        <segue reference="jHc-Te-yaJ"/>
+        <segue reference="aFq-hP-hSl"/>
+        <segue reference="hME-Nf-KWM"/>
         <segue reference="bXY-YX-TnO"/>
     </inferredMetricsTieBreakers>
     <resources>
