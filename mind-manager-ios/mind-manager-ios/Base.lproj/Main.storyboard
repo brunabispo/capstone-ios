@@ -224,13 +224,6 @@
                                     <action selector="btnSubmitLogin:" destination="qbt-ci-kAI" eventType="touchUpInside" id="KwH-dR-07P"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGr-nP-rEC">
-                                <rect key="frame" x="20" y="580" width="374" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <color key="textColor" red="0.92891609668731689" green="0.21953278779983521" blue="0.19875350594520569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jy5-D7-dtZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -239,7 +232,6 @@
                     <connections>
                         <outlet property="inputPassword" destination="hCr-EX-GXB" id="cm3-ap-ELI"/>
                         <outlet property="inputUsername" destination="ECb-04-5b7" id="UJ2-MC-XQS"/>
-                        <outlet property="lblError" destination="IGr-nP-rEC" id="BL0-uM-OsX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Abl-Pv-A97" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -460,22 +452,6 @@
                                     <segue destination="Dsn-zm-m3m" kind="show" id="HJe-NW-Qs1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEy-lK-h3u">
-                                <rect key="frame" x="110" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="filter"/>
-                                <connections>
-                                    <action selector="btnFilter:" destination="9hU-w7-GYF" eventType="touchUpInside" id="mYc-dC-ura"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYZ-QW-FCU">
-                                <rect key="frame" x="254" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="random"/>
-                                <connections>
-                                    <action selector="btnRandom:" destination="9hU-w7-GYF" eventType="touchUpInside" id="XYC-20-33e"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moody" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxl-Gm-JoH">
                                 <rect key="frame" x="20" y="181" width="374" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -505,6 +481,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="EGr-b8-y4B" kind="show" id="Gvl-jj-lSr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYZ-QW-FCU">
+                                <rect key="frame" x="185" y="240" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="random"/>
+                                <connections>
+                                    <action selector="btnRandom:" destination="9hU-w7-GYF" eventType="touchUpInside" id="XYC-20-33e"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -891,22 +875,6 @@
                                     <segue destination="NFN-pU-K9s" kind="show" id="MWv-mE-mYg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAi-zb-aNE">
-                                <rect key="frame" x="109" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="filter"/>
-                                <connections>
-                                    <action selector="btnFilter:" destination="zx6-vm-Eiw" eventType="touchUpInside" id="KvJ-zN-xkN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6u-nv-DJS">
-                                <rect key="frame" x="253" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="random"/>
-                                <connections>
-                                    <action selector="btnRandom:" destination="zx6-vm-Eiw" eventType="touchUpInside" id="pt6-j6-NF0"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are your suggestions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6n-Je-KYF">
                                 <rect key="frame" x="20" y="134" width="374" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -931,6 +899,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="flG-Vh-C8G" kind="show" id="M8w-qb-FGc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6u-nv-DJS">
+                                <rect key="frame" x="185" y="240" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="random"/>
+                                <connections>
+                                    <action selector="btnRandom:" destination="zx6-vm-Eiw" eventType="touchUpInside" id="pt6-j6-NF0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1355,22 +1331,6 @@
                                     <segue destination="DSm-6E-Soq" kind="show" id="CMh-oU-Oxu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iW-Wf-3fP">
-                                <rect key="frame" x="109" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="filter"/>
-                                <connections>
-                                    <action selector="btnFilter:" destination="F8p-uA-SM5" eventType="touchUpInside" id="xkb-69-Y4K"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sj1-Ok-yoi">
-                                <rect key="frame" x="253" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="random"/>
-                                <connections>
-                                    <action selector="btnRandom:" destination="F8p-uA-SM5" eventType="touchUpInside" id="YZJ-1V-dXr"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are your suggestions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EwF-aw-x4t">
                                 <rect key="frame" x="20" y="134" width="374" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1395,6 +1355,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="oDV-50-RED" kind="show" id="qqx-Ub-UmD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sj1-Ok-yoi">
+                                <rect key="frame" x="185" y="240" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="random"/>
+                                <connections>
+                                    <action selector="btnRandom:" destination="F8p-uA-SM5" eventType="touchUpInside" id="YZJ-1V-dXr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1551,22 +1519,6 @@
                                     <segue destination="nfo-xW-5kA" kind="show" id="Jkr-km-am7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhc-wk-dNT">
-                                <rect key="frame" x="109" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="filter"/>
-                                <connections>
-                                    <action selector="btnFilter:" destination="HGG-Pt-GAC" eventType="touchUpInside" id="gqc-B1-3hq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwn-Bv-UoM">
-                                <rect key="frame" x="253" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="random"/>
-                                <connections>
-                                    <action selector="btnRandom:" destination="HGG-Pt-GAC" eventType="touchUpInside" id="CxR-oF-cpm"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are your suggestions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQm-ma-MGc">
                                 <rect key="frame" x="20" y="134" width="374" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1591,6 +1543,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="QOj-VO-Ric" kind="show" id="SGP-QZ-7sk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwn-Bv-UoM">
+                                <rect key="frame" x="185" y="240" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="random"/>
+                                <connections>
+                                    <action selector="btnRandom:" destination="HGG-Pt-GAC" eventType="touchUpInside" id="CxR-oF-cpm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2220,22 +2180,6 @@
                                     <segue destination="MMz-23-gTL" kind="show" id="Tpg-7Z-ylp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kj-cn-ZHZ">
-                                <rect key="frame" x="109" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="filter"/>
-                                <connections>
-                                    <action selector="btnFilter:" destination="yR0-IX-f2N" eventType="touchUpInside" id="eP9-4z-Ehp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5s-YT-pbH">
-                                <rect key="frame" x="253" y="240" width="45" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="random"/>
-                                <connections>
-                                    <action selector="btnRandom:" destination="yR0-IX-f2N" eventType="touchUpInside" id="1Mc-im-Q8a"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are your suggestions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bnm-Op-MJJ">
                                 <rect key="frame" x="20" y="134" width="374" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2260,6 +2204,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="6dq-ds-9vM" kind="show" id="WF9-fz-o1e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5s-YT-pbH">
+                                <rect key="frame" x="185" y="240" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="random"/>
+                                <connections>
+                                    <action selector="btnRandom:" destination="yR0-IX-f2N" eventType="touchUpInside" id="1Mc-im-Q8a"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3189,7 +3141,7 @@ Analyst</string>
                                 </state>
                                 <connections>
                                     <action selector="btnSubmit:" destination="QU1-gA-xXQ" eventType="touchUpInside" id="Y6D-Fg-LIf"/>
-                                    <segue destination="F8p-uA-SM5" kind="show" id="mvU-Nq-K61"/>
+                                    <segue destination="9hU-w7-GYF" kind="show" id="G2s-Pi-Vm6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZxK-Dn-Ef8">
@@ -3644,15 +3596,14 @@ Analyst</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="t3D-Dd-ae7"/>
-        <segue reference="9Ig-eL-lH4"/>
-        <segue reference="B5o-58-vvw"/>
-        <segue reference="mvU-Nq-K61"/>
+        <segue reference="0CU-W3-Jwa"/>
+        <segue reference="JLM-4z-SiA"/>
+        <segue reference="K4H-Ag-jVt"/>
+        <segue reference="G2s-Pi-Vm6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="720" height="1280"/>
         <image name="crossword_moody" width="205.5" height="135.5"/>
-        <image name="filter" width="170.5" height="170.5"/>
         <image name="game" width="137" height="136"/>
         <image name="gbc" width="400" height="258"/>
         <image name="movie" width="136" height="142"/>

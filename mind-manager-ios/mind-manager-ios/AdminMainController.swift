@@ -20,7 +20,7 @@ class AdminMainController: UIViewController {
     
     
     override func viewDidAppear(_ animated: Bool) {
-        
+        self.navigationItem.setHidesBackButton(true, animated: false)
         
         if self.isBeingPresented || self.isMovingToParent {
             self.performSegue(withIdentifier: "goToLogin", sender: self)

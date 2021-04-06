@@ -11,20 +11,16 @@ class LoginController: UIViewController {
     
     let welcomeController = WelcomeController()
     
-    let adminUsername = "admin"
-    let adminPassword = "admin_123"
+    let adminUsername = "benjeff"
+    let adminPassword = "123_ben"
     
     @IBOutlet weak var inputUsername: UITextField!
     
     @IBOutlet weak var inputPassword: UITextField!
     
-    @IBOutlet weak var lblError: UILabel!
-    
     @IBAction func btnSubmitLogin(_ sender: Any) {
         let username = inputUsername.text
         let password = inputPassword.text
-        
-//        lblError.isHidden = true
         
         // Check if fields are empty
         if username == "" || password == "" {
@@ -54,11 +50,6 @@ class LoginController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Hide the error label when the page loads
-        lblError.isHidden = true
-
-        // Do any additional setup after loading the view.
     }
     
     func displayErrorAlert(errorAlert: String) {
