@@ -30,7 +30,6 @@
 		AB34EA0F261B751100514D56 /* RelaxedReadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34EA0E261B751100514D56 /* RelaxedReadingController.swift */; };
 		AB34EA12261B751D00514D56 /* CalmerReadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34EA11261B751D00514D56 /* CalmerReadingController.swift */; };
 		AB34EA16261BBEB000514D56 /* AdminMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34EA15261BBEB000514D56 /* AdminMainController.swift */; };
-		AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB463C022601428500860BA2 /* SuggestionProtocol.swift */; };
 		AB89CFC6261A20E30003E798 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89CFC5261A20E30003E798 /* UserModel.swift */; };
 		AB89CFCA261A21450003E798 /* UserReadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89CFC9261A21450003E798 /* UserReadModel.swift */; };
 		AB89CFCD261A21A90003E798 /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB89CFCC261A21A90003E798 /* AnswerModel.swift */; };
@@ -83,7 +82,6 @@
 		AB34EA0E261B751100514D56 /* RelaxedReadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxedReadingController.swift; sourceTree = "<group>"; };
 		AB34EA11261B751D00514D56 /* CalmerReadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmerReadingController.swift; sourceTree = "<group>"; };
 		AB34EA15261BBEB000514D56 /* AdminMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMainController.swift; sourceTree = "<group>"; };
-		AB463C022601428500860BA2 /* SuggestionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionProtocol.swift; sourceTree = "<group>"; };
 		AB89CFC5261A20E30003E798 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		AB89CFC9261A21450003E798 /* UserReadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReadModel.swift; sourceTree = "<group>"; };
 		AB89CFCC261A21A90003E798 /* AnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
@@ -208,7 +206,6 @@
 				AB34EA0E261B751100514D56 /* RelaxedReadingController.swift */,
 				AB06C4F226127C8C009F011E /* RelaxedSuggestionsController.swift */,
 				ABA471B325F29D7C0086E8DA /* SceneDelegate.swift */,
-				AB463C022601428500860BA2 /* SuggestionProtocol.swift */,
 				ABA471B525F29D7C0086E8DA /* WelcomeController.swift */,
 			);
 			path = "mind-manager-ios";
@@ -359,7 +356,6 @@
 				AB89CFD0261A21DA0003E798 /* AnswerReadModel.swift in Sources */,
 				ABA1DBA3260E375800A87CBD /* MoodyMoviesPlayerController.swift in Sources */,
 				AB06C4EF26127898009F011E /* CalmerMoviesPlayerController.swift in Sources */,
-				AB463C032601428500860BA2 /* SuggestionProtocol.swift in Sources */,
 				AB06C4E8261275C7009F011E /* CalmerGameController.swift in Sources */,
 				AB06C4E5261274CE009F011E /* CalmerSuggestionsController.swift in Sources */,
 				ABA471BC25F29D7C0086E8DA /* mind_manager_ios.xcdatamodeld in Sources */,
